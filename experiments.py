@@ -11,6 +11,7 @@ import random
 import time
 import queue
 cuda_if_available = 'cuda' if torch.cuda.is_available() else 'cpu'
+#cuda_if_available = 'cpu'
 device = cuda_if_available
 
 #NOTE: To change experiment parameters, go to the end of this file.
@@ -248,7 +249,7 @@ def generate_L(bits):
 
 def generate_dataset(l, f):
     """
-    Generates G_n.
+    Generates D_n.
 
     Parameters
     ----------
@@ -258,7 +259,7 @@ def generate_dataset(l, f):
     
     Returns
     -------
-    m : A tensor representation of G_n.
+    m : A tensor representation of D_n.
     """
     x_len = max(int(l / 4),1)
     y_len = max(int(l / 4),1)
@@ -298,7 +299,7 @@ def obtain_relevant_statements(target_bit, c, l, device):
     Parameters
     ----------
     target_bit : String of the format 'x##'
-    G : Tensor
+    D : Tensor
     l : Integer equal to len(X)
     device : 'cpu' or 'gpu'
 
@@ -339,7 +340,7 @@ def obtain_length(item, c):
     l = len(matrix_to_cnf(prospect))
     return l
 
-def obtain_necessary_disjuncts(c, S, G, L, target_bit):
+def obtain_necessary_disjuncts(c, S, D, L, target_bit):
     """
     A quick check to see which members of c are just by themselves necessary for c to remain a ruleset.
 
@@ -347,7 +348,7 @@ def obtain_necessary_disjuncts(c, S, G, L, target_bit):
     ----------
     c : a ruleset in tensor form
     S : situations in tensor form
-    G : decisions in tensor form
+    D : decisions in tensor form
     L : the set of all statements in tensor form
 
     Returns
@@ -362,13 +363,13 @@ def obtain_necessary_disjuncts(c, S, G, L, target_bit):
             indices[ix] = False
             prospect = c[indices,:,:]
             Zprospect = obtain_extension(prospect, L)
-            reconstructed_G = constrain_by_situation(Zprospect, S, target_bit)
-            if not equality(G, reconstructed_G): necessary.add(ix)
+            reconstructed_D = constrain_by_situation(Zprospect, S, target_bit)
+            if not equality(D, reconstructed_D): necessary.add(ix)
     else:
         necessary.add(0)
     return necessary
 
-def obtain_sufficient_cnf(c, S, G, L, target_bit, necessary, optimise_for='w', depth_limit = 100, time_limit = 100):
+def obtain_sufficient_cnf(c, S, D, L, target_bit, necessary, optimise_for='w', depth_limit = 100, time_limit = 100):
     """
     Performs an A* search (Hart, Nilsson and Bertram 1968) to find a sufficient ruleset, 
     which is either mdl or weakest possible.
@@ -377,7 +378,7 @@ def obtain_sufficient_cnf(c, S, G, L, target_bit, necessary, optimise_for='w', d
     ----------
     c : a ruleset in tensor form
     S : situations in tensor form
-    G : decisions in tensor form
+    D : decisions in tensor form
     L : the set of all statements in tensor form
     target_bit : the bit which is to be predicted
     necessary : those subsentential parts of c which are absolutely necessary in all rulesets
@@ -413,8 +414,8 @@ def obtain_sufficient_cnf(c, S, G, L, target_bit, necessary, optimise_for='w', d
             indices[ix] = True
         prospect = c[indices,:,:]
         Zprospect = obtain_extension(prospect, L)
-        reconstructed_G = constrain_by_situation(Zprospect, S, target_bit)
-        if equality(G, reconstructed_G):
+        reconstructed_D = constrain_by_situation(Zprospect, S, target_bit)
+        if equality(D, reconstructed_D):
             return prospect
         elif len(item) < depth_limit: #Search depth limit imposed for convenience.
             for ix in range(0,c.shape[0]):
@@ -438,21 +439,21 @@ def obtain_sufficient_cnf(c, S, G, L, target_bit, necessary, optimise_for='w', d
                             q.put((obtain_length(item, c),item))
     return c
 
-def obtain_true_S(target_bit, G):
+def obtain_true_S(target_bit, D):
     """
-    Obtains S by just deleting the parts of G we want to predict.
+    Obtains S by just deleting the parts of D we want to predict.
     
     Parameters
     ----------
     target_bit : the bit which is to be predicted
-    G : decisions in tensor form
+    D : decisions in tensor form
 
     Returns
     -------
     S : the set of all situations in tensor form
     """
     target_idx = int(target_bit[1::])
-    S = G.clone()
+    S = D.clone()
     S[:,target_idx,:] = False
     return S
 
@@ -580,10 +581,10 @@ def accuracy(m1, m2):
     FN = disjoint(m2,m1).shape[0] / m2.shape[0]
     return TP, FP, FN
 
-def ruleset_accuracy(target_bit, c, S, G, Z):
+def ruleset_accuracy(target_bit, c, S, D, Z):
     Zc = obtain_extension(c, Z)
-    G_recon = constrain_by_situation(Zc, S, target_bit)
-    return accuracy(G_recon, G)
+    D_recon = constrain_by_situation(Zc, S, target_bit)
+    return accuracy(D_recon, D)
 
 def obtain_extension(c, Z):
     """Returns the extension of a statement in cnf."""
@@ -603,14 +604,14 @@ def constrain_by_situation(Zc, S, target_bit):
     Zc_new = Zc[comp_temp,:,:]
     return Zc_new
 
-def trial(number_of_examples, G_n, L, bits, depth_limit, time_limit):
+def trial(number_of_examples, D_n, L, bits, depth_limit, time_limit):
     """
-    Given a value of |G_k| (the number_of_examples), runs 1 trial.
+    Given a value of |D_k| (the number_of_examples), runs 1 trial.
     
     Parameters
     ----------
-    number_of_examples : |G_k|
-    G_n : the set of all correct decisions for the parent task, in tensor form
+    number_of_examples : |D_k|
+    D_n : the set of all correct decisions for the parent task, in tensor form
     L : set of all statements in tensor form
     bits : the set of bits to which all statements refer
     depth_limit : a search limit to save time. Default 100
@@ -624,40 +625,40 @@ def trial(number_of_examples, G_n, L, bits, depth_limit, time_limit):
     FN : decisions which are false negatives
     """
     target_bit = bits[random.randint(0,len(bits)-1)]
-    indices = random.sample(range(0, G_n.shape[0]), number_of_examples)
-    G_k = G_n[indices, :, :]
-    p_1 = (G_k[:,int(target_bit[1::]),1] > 0).nonzero().shape[0] / G_k.shape[0]
-    p_0 = (G_k[:,int(target_bit[1::]),0] > 0).nonzero().shape[0] / G_k.shape[0]
-    S_n = obtain_true_S(target_bit, G_n)
-    S_k = obtain_true_S(target_bit, G_k)
+    indices = random.sample(range(0, D_n.shape[0]), number_of_examples)
+    D_k = D_n[indices, :, :]
+    p_1 = (D_k[:,int(target_bit[1::]),1] > 0).nonzero().shape[0] / D_k.shape[0]
+    p_0 = (D_k[:,int(target_bit[1::]),0] > 0).nonzero().shape[0] / D_k.shape[0]
+    S_n = obtain_true_S(target_bit, D_n)
+    S_k = obtain_true_S(target_bit, D_k)
     smpy_S_k = matrix_to_dnf(S_k)
-    smpy_G_k = matrix_to_dnf(G_k)
-    smpy_c = simplify_logic(smpy_G_k, form='cnf') 
+    smpy_D_k = matrix_to_dnf(D_k)
+    smpy_c = simplify_logic(smpy_D_k, form='cnf') 
     c = nf_to_matrix(smpy_c, l, 'cnf', device)
     Zc = obtain_extension(c, L)
-    reconstructed_G_k = constrain_by_situation(Zc, S_k, target_bit)
+    reconstructed_D_k = constrain_by_situation(Zc, S_k, target_bit)
     c = obtain_relevant_statements(target_bit, c, l, device)
-    necessary = obtain_necessary_disjuncts(c, S_k, G_k, L, target_bit)
+    necessary = obtain_necessary_disjuncts(c, S_k, D_k, L, target_bit)
     print("Nec:",len(necessary), '/', c.shape[0])
     TP = [0,0] #True positives in this trial (0 is c_w, 1 is c_mdl)
     FP = [0,0]
     FN = [0,0]
-    c_w = obtain_sufficient_cnf(c, S_k, G_k, L, target_bit, necessary, 'w', depth_limit, time_limit)
-    TP[0], FP[0], FN[0] = ruleset_accuracy(target_bit, c_w, S_n, G_n, L)
-    c_mdl = obtain_sufficient_cnf(c, S_k, G_k, L, target_bit, necessary, 's', depth_limit, time_limit)
-    TP[1], FP[1], FN[1] = ruleset_accuracy(target_bit, c_mdl, S_n, G_n, L)
+    c_w = obtain_sufficient_cnf(c, S_k, D_k, L, target_bit, necessary, 'w', depth_limit, time_limit)
+    TP[0], FP[0], FN[0] = ruleset_accuracy(target_bit, c_w, S_n, D_n, L)
+    c_mdl = obtain_sufficient_cnf(c, S_k, D_k, L, target_bit, necessary, 's', depth_limit, time_limit)
+    TP[1], FP[1], FN[1] = ruleset_accuracy(target_bit, c_mdl, S_n, D_n, L)
     return TP, FP, FN
 
-def average_x_trials(x, number_of_examples, G_n, L, bits, depth_limit, time_limit):
+def average_x_trials(x, number_of_examples, D_n, L, bits, depth_limit, time_limit):
     """
-    Given a value of |G_k| (the number_of_examples), runs a number of trails and then 
+    Given a value of |D_k| (the number_of_examples), runs a number of trails and then 
     averages the results.
     
     Parameters
     ----------
     x : number of trails to be run and averaged
-    number_of_examples : |G_k|
-    G_n : the set of all correct decisions for the parent task, in tensor form
+    number_of_examples : |D_k|
+    D_n : the set of all correct decisions for the parent task, in tensor form
     L : set of all statements in tensor form
     bits : the set of bits to which all statements refer
     depth_limit : a search limit to save time. Default 100
@@ -679,10 +680,10 @@ def average_x_trials(x, number_of_examples, G_n, L, bits, depth_limit, time_limi
     ix = 0 
     clear = False
     visitedbits = []
-    visitedG_k = []
+    visitedD_k = []
     while ix < x:
         # try:
-        nTP, nFP, nFN = trial(number_of_examples, G_n, L, bits, depth_limit, time_limit)
+        nTP, nFP, nFN = trial(number_of_examples, D_n, L, bits, depth_limit, time_limit)
         for k in range(0,len(TP)):
             generalised[k] += int(nTP[k] == 1)
             print(k, generalised[k], nTP[k] == 1, nTP[k], ix, number_of_examples)
@@ -699,25 +700,25 @@ def average_x_trials(x, number_of_examples, G_n, L, bits, depth_limit, time_limi
         FN[k] /= x
     return bTP, generalised, TP, FP, FN
 
-def iterate_trials(G_n, L, bits, trials_per_stage, depth_limit, time_limit):
+def iterate_trials(D_n, L, bits, trials_per_stage, depth_limit, time_limit):
     """
-    Runs trials, iterating different values of G_k.
+    Runs trials, iterating different values of D_k.
     Doesn't return anything, but prints to terminal.
     
     Parameters
     ----------
     target_bit : the bit which is to be predicted
-    G_n : the set of all correct decisions for the parent task, in tensor form
+    D_n : the set of all correct decisions for the parent task, in tensor form
     L : set of all statements in tensor form
     bits : the set of bits to which all statements refer
-    traisl_per_state : the number of trials conducted for each value of |G_k|
+    traisl_per_state : the number of trials conducted for each value of |D_k|
     depth_limit : a search limit to save time. Default 100
     time_limit : a search limit to save time. Default 100 
     """
     stage = 1
     stage_limit = 8
     number_of_examples = 0
-    counts = torch.sum(G_n, dim=0)
+    counts = torch.sum(D_n, dim=0)
     sample_numbers = []
     bTP_w = []
     bTP_mdl = []
@@ -727,9 +728,9 @@ def iterate_trials(G_n, L, bits, trials_per_stage, depth_limit, time_limit):
     generalised_mdl = []
     while stage < stage_limit-1:
         stage += 1 
-        number_of_examples = int(stage * G_n.shape[0] / (1*stage_limit)) #This increments the cardinality of G_k
+        number_of_examples = int(stage * D_n.shape[0] / (1*stage_limit)) #This increments the cardinality of D_k
         sample_numbers.append(number_of_examples)
-        nbTP, ngeneralised, nTP, nFP, nFN = average_x_trials(trials_per_stage, number_of_examples, G_n, L, bits, depth_limit, time_limit)
+        nbTP, ngeneralised, nTP, nFP, nFN = average_x_trials(trials_per_stage, number_of_examples, D_n, L, bits, depth_limit, time_limit)
         bTP_w.append(nbTP[0])
         bTP_mdl.append(nbTP[1])
         TP_w.append(nTP[0])
@@ -755,11 +756,11 @@ L_complete_assignments_only = generate_all_complete_assignments(bits)
 L = nf_to_matrix(L_complete_assignments_only, l, device) #Represent propositional logic as a tensor in order to save on computing resources
 
 #Parameters
-number_of_trials = 128 #Number of trials to run per value of |G_k|. Recommend at least 100.
+number_of_trials = 128 #Number of trials to run per value of |D_k|. Recommend at least 100.
 def operation(x, y): return x * y #Change the operater in this formula to model different functions.
 depth_limit = 4 #Aborts searches that go beyond this depth. Default 100 (will never be reached). Set this to 4 if you want to do run experiments quickly
 time_limit = 100 #Aborts searches that take more minutes than this to run. Default 100 (shouldn't be reached unless you run this on a slow computer)
 
 #Generate dataset and begin trails.
-G_n = generate_dataset(l, operation)
-iterate_trials(G_n, L, bits, number_of_trials, depth_limit, time_limit)
+D_n = generate_dataset(l, operation)
+iterate_trials(D_n, L, bits, number_of_trials, depth_limit, time_limit)
