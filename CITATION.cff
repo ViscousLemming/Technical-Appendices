@@ -1,10 +1,10 @@
-cff-version: 1.2.0
+cff-version: 3.0
 message: "If you use this software, please cite it as below."
 authors:
   - family-names: Bennett
     given-names: Michael Timothy
     orcid: https://orcid.org/0000-0001-6895-8782
 title: "Technical Appendices"
-version: 1.2.1
-doi: 10.5281/zenodo.7641742
-date-released: 2023-02-15
+version: 3.0
+doi: 10.5281/zenodo.14271101
+date-released: 2024-12-04
