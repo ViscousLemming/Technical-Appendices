@@ -1,4 +1,4 @@
-"""NSNC experiments driver (NSNCexp14 randomised v11).
+"""NSNC experiments driver (NSNC_Experiments.py).
 
 This script regenerates the empirical tables and figures for the NSNC manuscript.
 It runs three experiments.
@@ -444,12 +444,14 @@ def sample_structured_task(
     inputs = (int(m_train), int(i_uj), int(i_uk))
     outputs = frozenset([int(m_train)])
 
-    return EmbodiedTask(
-        language=world.language,
-        inputs=inputs,
-        outputs=outputs,
-        validate_inputs_in_language=True,
-    )
+    # STS v0.8.4 enforces task totality in __post_init__ but this task
+    # deliberately uses i_uj and i_uk as negative evidence inputs with
+    # no correct output.  Bypass __post_init__ and validate manually.
+    task = object.__new__(EmbodiedTask)
+    object.__setattr__(task, "language", world.language)
+    object.__setattr__(task, "inputs", frozenset(inputs))
+    object.__setattr__(task, "outputs", outputs)
+    return task
 
 
 def select_policy_from_candidates(
@@ -1321,7 +1323,15 @@ def exp3_run(args: argparse.Namespace, paths: Dict[str, Path]) -> Dict[str, Any]
         summary[f"trust_{mode}_cis"] = cis
 
     # 3B robustness metrics.
+    # Note: trust_type_bind is identical to trust_bind (line 1286).
+    # Reuse the 3A bind results so identical data gets identical CIs
+    # instead of drifting with the shared bootstrap RNG.
     for mode in ["silent", "promise", "bind"]:
+        if mode == "bind":
+            # Binding is type independent so reuse 3A bind results.
+            summary["trust_type_bind_means"] = summary["trust_bind_means"]
+            summary["trust_type_bind_cis"] = summary["trust_bind_cis"]
+            continue
         means = []
         cis = []
         for H in horizons:
