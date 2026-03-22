@@ -1,0 +1,1177 @@
+{
+  "networks": [
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 0,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8536,
+      "hessian_trace": 51.97497284010053,
+      "act_patterns_L1": 69498,
+      "act_patterns_L2": 55099,
+      "ensemble_agreement": 0.14448706805706024,
+      "n_wrong_test": 10430,
+      "mean_pairwise_agreement": 0.9489469832303573
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 1,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.856,
+      "hessian_trace": 51.02661387756467,
+      "act_patterns_L1": 69499,
+      "act_patterns_L2": 56313,
+      "ensemble_agreement": 0.12957479059696198,
+      "n_wrong_test": 10233,
+      "mean_pairwise_agreement": 0.9516508481940444
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 2,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8513,
+      "hessian_trace": 50.349611654356124,
+      "act_patterns_L1": 69499,
+      "act_patterns_L2": 56066,
+      "ensemble_agreement": 0.16211345791816711,
+      "n_wrong_test": 10737,
+      "mean_pairwise_agreement": 0.946558494957126
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 3,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8517,
+      "hessian_trace": 47.72421565309167,
+      "act_patterns_L1": 69498,
+      "act_patterns_L2": 53154,
+      "ensemble_agreement": 0.1523103564977646,
+      "n_wrong_test": 10505,
+      "mean_pairwise_agreement": 0.9465767035678941
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 4,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8507,
+      "hessian_trace": 51.72791073381901,
+      "act_patterns_L1": 69497,
+      "act_patterns_L2": 56236,
+      "ensemble_agreement": 0.15944649279117584,
+      "n_wrong_test": 10576,
+      "mean_pairwise_agreement": 0.9452441553680264
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 5,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8516,
+      "hessian_trace": 51.93189366370439,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 56282,
+      "ensemble_agreement": 0.1512879878282547,
+      "n_wrong_test": 10479,
+      "mean_pairwise_agreement": 0.9471522460178453
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 6,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8554,
+      "hessian_trace": 52.55795778527856,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 57109,
+      "ensemble_agreement": 0.13841363787651062,
+      "n_wrong_test": 10343,
+      "mean_pairwise_agreement": 0.9496123815069393
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 7,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8529,
+      "hessian_trace": 52.83113055244088,
+      "act_patterns_L1": 69491,
+      "act_patterns_L2": 57454,
+      "ensemble_agreement": 0.14102615416049957,
+      "n_wrong_test": 10466,
+      "mean_pairwise_agreement": 0.9500249490445974
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 8,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.856,
+      "hessian_trace": 60.59587905138731,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 55076,
+      "ensemble_agreement": 0.1335734874010086,
+      "n_wrong_test": 10288,
+      "mean_pairwise_agreement": 0.9510747145633308
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 9,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8543,
+      "hessian_trace": 50.30647613443434,
+      "act_patterns_L1": 69499,
+      "act_patterns_L2": 62869,
+      "ensemble_agreement": 0.14187182486057281,
+      "n_wrong_test": 10294,
+      "mean_pairwise_agreement": 0.9480252411900735
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 10,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8524,
+      "hessian_trace": 54.09771405428648,
+      "act_patterns_L1": 69499,
+      "act_patterns_L2": 58918,
+      "ensemble_agreement": 0.14922471344470978,
+      "n_wrong_test": 10474,
+      "mean_pairwise_agreement": 0.9470198093628397
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 11,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8479,
+      "hessian_trace": 46.83663529165089,
+      "act_patterns_L1": 69498,
+      "act_patterns_L2": 60136,
+      "ensemble_agreement": 0.1609458327293396,
+      "n_wrong_test": 10664,
+      "mean_pairwise_agreement": 0.9453983185242634
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 12,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8505,
+      "hessian_trace": 50.9915133535862,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 55970,
+      "ensemble_agreement": 0.14965276420116425,
+      "n_wrong_test": 10544,
+      "mean_pairwise_agreement": 0.948660097560104
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 13,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8528,
+      "hessian_trace": 53.47528959900141,
+      "act_patterns_L1": 69498,
+      "act_patterns_L2": 54430,
+      "ensemble_agreement": 0.1460552215576172,
+      "n_wrong_test": 10408,
+      "mean_pairwise_agreement": 0.9483306298450548
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 14,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8534,
+      "hessian_trace": 45.35880512923002,
+      "act_patterns_L1": 69499,
+      "act_patterns_L2": 55740,
+      "ensemble_agreement": 0.14592178165912628,
+      "n_wrong_test": 10415,
+      "mean_pairwise_agreement": 0.9480455019036118
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 15,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8557,
+      "hessian_trace": 62.29634181782603,
+      "act_patterns_L1": 69498,
+      "act_patterns_L2": 53692,
+      "ensemble_agreement": 0.13801825046539307,
+      "n_wrong_test": 10392,
+      "mean_pairwise_agreement": 0.9511196491669636
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 16,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8562,
+      "hessian_trace": 55.379203513339164,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 60815,
+      "ensemble_agreement": 0.1252293586730957,
+      "n_wrong_test": 10210,
+      "mean_pairwise_agreement": 0.9532553091341135
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 17,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.851,
+      "hessian_trace": 55.878896532654764,
+      "act_patterns_L1": 69498,
+      "act_patterns_L2": 57639,
+      "ensemble_agreement": 0.14933182299137115,
+      "n_wrong_test": 10597,
+      "mean_pairwise_agreement": 0.9493513289763003
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 18,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8567,
+      "hessian_trace": 47.45453614532948,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 53933,
+      "ensemble_agreement": 0.12658178806304932,
+      "n_wrong_test": 10207,
+      "mean_pairwise_agreement": 0.9527132462482063
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 19,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.852,
+      "hessian_trace": 43.276022953093054,
+      "act_patterns_L1": 69498,
+      "act_patterns_L2": 57606,
+      "ensemble_agreement": 0.15064623951911926,
+      "n_wrong_test": 10614,
+      "mean_pairwise_agreement": 0.9483655739803704
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 20,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8527,
+      "hessian_trace": 49.38485876023769,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 56176,
+      "ensemble_agreement": 0.149309903383255,
+      "n_wrong_test": 10478,
+      "mean_pairwise_agreement": 0.9478901697664844
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 21,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8546,
+      "hessian_trace": 57.5088407651335,
+      "act_patterns_L1": 69499,
+      "act_patterns_L2": 57661,
+      "ensemble_agreement": 0.1409403532743454,
+      "n_wrong_test": 10349,
+      "mean_pairwise_agreement": 0.9487255775198644
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 22,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.85,
+      "hessian_trace": 58.94892593607307,
+      "act_patterns_L1": 69498,
+      "act_patterns_L2": 57053,
+      "ensemble_agreement": 0.1594199687242508,
+      "n_wrong_test": 10657,
+      "mean_pairwise_agreement": 0.9461987833587491
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 23,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8542,
+      "hessian_trace": 45.75907548837364,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 59991,
+      "ensemble_agreement": 0.13734309375286102,
+      "n_wrong_test": 10278,
+      "mean_pairwise_agreement": 0.9495545321581315
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.05,
+        "seed": 24,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8509,
+      "hessian_trace": 64.11079257443548,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 52521,
+      "ensemble_agreement": 0.1563272625207901,
+      "n_wrong_test": 10507,
+      "mean_pairwise_agreement": 0.9452926029964369
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 100,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8606,
+      "hessian_trace": 23.835703534930943,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 66721,
+      "ensemble_agreement": 0.1242511048913002,
+      "n_wrong_test": 9841,
+      "mean_pairwise_agreement": 0.947518410731335
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 101,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8621,
+      "hessian_trace": 14.108065529316663,
+      "act_patterns_L1": 69497,
+      "act_patterns_L2": 64948,
+      "ensemble_agreement": 0.1509314477443695,
+      "n_wrong_test": 9865,
+      "mean_pairwise_agreement": 0.9383009745150196
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 102,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8674,
+      "hessian_trace": 23.367528501227497,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 65465,
+      "ensemble_agreement": 0.12026555091142654,
+      "n_wrong_test": 9487,
+      "mean_pairwise_agreement": 0.9440566593286942
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 103,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8634,
+      "hessian_trace": 23.054979862235488,
+      "act_patterns_L1": 69497,
+      "act_patterns_L2": 68093,
+      "ensemble_agreement": 0.11168455332517624,
+      "n_wrong_test": 9597,
+      "mean_pairwise_agreement": 0.9486639110409484
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 104,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8685,
+      "hessian_trace": 16.054339964278043,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 66478,
+      "ensemble_agreement": 0.10774999856948853,
+      "n_wrong_test": 9437,
+      "mean_pairwise_agreement": 0.9480093839217205
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 105,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8659,
+      "hessian_trace": 21.77572466261685,
+      "act_patterns_L1": 69498,
+      "act_patterns_L2": 65594,
+      "ensemble_agreement": 0.12369176745414734,
+      "n_wrong_test": 9590,
+      "mean_pairwise_agreement": 0.9437677179064069
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 106,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8654,
+      "hessian_trace": 22.198939389549196,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 65851,
+      "ensemble_agreement": 0.12591615319252014,
+      "n_wrong_test": 9665,
+      "mean_pairwise_agreement": 0.9441920287755071
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 107,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8658,
+      "hessian_trace": 19.770786575414242,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 65555,
+      "ensemble_agreement": 0.11808399111032486,
+      "n_wrong_test": 9594,
+      "mean_pairwise_agreement": 0.9465209111875418
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 108,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8613,
+      "hessian_trace": 21.26752906229347,
+      "act_patterns_L1": 69499,
+      "act_patterns_L2": 66495,
+      "ensemble_agreement": 0.13137546181678772,
+      "n_wrong_test": 9808,
+      "mean_pairwise_agreement": 0.9445699477682308
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 109,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8655,
+      "hessian_trace": 22.242365111522375,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 67662,
+      "ensemble_agreement": 0.11637527495622635,
+      "n_wrong_test": 9630,
+      "mean_pairwise_agreement": 0.9470204029764447
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 110,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8655,
+      "hessian_trace": 22.818307984024287,
+      "act_patterns_L1": 69499,
+      "act_patterns_L2": 66276,
+      "ensemble_agreement": 0.12275319546461105,
+      "n_wrong_test": 9660,
+      "mean_pairwise_agreement": 0.9451971637959383
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 111,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8682,
+      "hessian_trace": 19.62713782090694,
+      "act_patterns_L1": 69499,
+      "act_patterns_L2": 66179,
+      "ensemble_agreement": 0.1074753925204277,
+      "n_wrong_test": 9497,
+      "mean_pairwise_agreement": 0.9489358310796776
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 112,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8665,
+      "hessian_trace": 15.147577002383768,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 66219,
+      "ensemble_agreement": 0.12147534638643265,
+      "n_wrong_test": 9579,
+      "mean_pairwise_agreement": 0.944907935298219
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 113,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8642,
+      "hessian_trace": 16.479549524709583,
+      "act_patterns_L1": 69453,
+      "act_patterns_L2": 62573,
+      "ensemble_agreement": 0.16265088319778442,
+      "n_wrong_test": 9865,
+      "mean_pairwise_agreement": 0.9349326029115793
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 114,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8668,
+      "hessian_trace": 28.282759265080095,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 67326,
+      "ensemble_agreement": 0.12762591242790222,
+      "n_wrong_test": 9808,
+      "mean_pairwise_agreement": 0.9463899464023356
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 115,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8614,
+      "hessian_trace": 26.78957907162607,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 65339,
+      "ensemble_agreement": 0.14430692791938782,
+      "n_wrong_test": 9938,
+      "mean_pairwise_agreement": 0.9417533339286337
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 116,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8639,
+      "hessian_trace": 22.798583483099936,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 65995,
+      "ensemble_agreement": 0.1304624080657959,
+      "n_wrong_test": 9889,
+      "mean_pairwise_agreement": 0.9454532217006294
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 117,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8619,
+      "hessian_trace": 17.526047449409962,
+      "act_patterns_L1": 69500,
+      "act_patterns_L2": 65839,
+      "ensemble_agreement": 0.12279495596885681,
+      "n_wrong_test": 9733,
+      "mean_pairwise_agreement": 0.9476837357696222
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 118,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8676,
+      "hessian_trace": 26.810974356383085,
+      "act_patterns_L1": 69499,
+      "act_patterns_L2": 66591,
+      "ensemble_agreement": 0.11331463605165482,
+      "n_wrong_test": 9558,
+      "mean_pairwise_agreement": 0.9474097684938081
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 119,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8669,
+      "hessian_trace": 18.034005945883692,
+      "act_patterns_L1": 69498,
+      "act_patterns_L2": 63441,
+      "ensemble_agreement": 0.11921636015176773,
+      "n_wrong_test": 9514,
+      "mean_pairwise_agreement": 0.9449281887132295
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 120,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8651,
+      "hessian_trace": 21.20967742931098,
+      "act_patterns_L1": 69487,
+      "act_patterns_L2": 64323,
+      "ensemble_agreement": 0.12929005920886993,
+      "n_wrong_test": 9752,
+      "mean_pairwise_agreement": 0.944175294467381
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 121,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8606,
+      "hessian_trace": 16.34643805829808,
+      "act_patterns_L1": 69499,
+      "act_patterns_L2": 66944,
+      "ensemble_agreement": 0.1428840011358261,
+      "n_wrong_test": 9879,
+      "mean_pairwise_agreement": 0.9414987418116355
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 122,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8642,
+      "hessian_trace": 18.16994731537998,
+      "act_patterns_L1": 69499,
+      "act_patterns_L2": 67009,
+      "ensemble_agreement": 0.11370775103569031,
+      "n_wrong_test": 9675,
+      "mean_pairwise_agreement": 0.9494661457684576
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 123,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8698,
+      "hessian_trace": 18.51330044692382,
+      "act_patterns_L1": 69488,
+      "act_patterns_L2": 67141,
+      "ensemble_agreement": 0.1058347150683403,
+      "n_wrong_test": 9263,
+      "mean_pairwise_agreement": 0.9459527061910046
+    },
+    {
+      "config": {
+        "batch_size": 500,
+        "lr": 0.5,
+        "seed": 124,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.8686,
+      "hessian_trace": 18.216089876331388,
+      "act_patterns_L1": 69499,
+      "act_patterns_L2": 66640,
+      "ensemble_agreement": 0.11251035332679749,
+      "n_wrong_test": 9341,
+      "mean_pairwise_agreement": 0.9453906781819402
+    }
+  ],
+  "reparameterisation": [
+    {
+      "net": 0,
+      "label": "flat",
+      "reparam": "T_beta",
+      "value": 1.0,
+      "test_acc": 0.8536,
+      "hessian_trace": 48.911274958476426,
+      "act_L1": 69498,
+      "act_L2": 55099,
+      "ensemble_agr": 0.14448706805706024
+    },
+    {
+      "net": 0,
+      "label": "flat",
+      "reparam": "T_beta",
+      "value": 2.0,
+      "test_acc": 0.8536,
+      "hessian_trace": 72.49810978204012,
+      "act_L1": 69498,
+      "act_L2": 55099,
+      "ensemble_agr": 0.14448706805706024
+    },
+    {
+      "net": 0,
+      "label": "flat",
+      "reparam": "T_beta",
+      "value": 5.0,
+      "test_acc": 0.8536,
+      "hessian_trace": 358.10533417120575,
+      "act_L1": 69498,
+      "act_L2": 55099,
+      "ensemble_agr": 0.14448706805706024
+    },
+    {
+      "net": 0,
+      "label": "flat",
+      "reparam": "T_beta",
+      "value": 10.0,
+      "test_acc": 0.8536,
+      "hessian_trace": 1433.8022413404285,
+      "act_L1": 69498,
+      "act_L2": 55099,
+      "ensemble_agr": 0.14448706805706024
+    },
+    {
+      "net": 0,
+      "label": "flat",
+      "reparam": "T_beta",
+      "value": 20.0,
+      "test_acc": 0.8536,
+      "hessian_trace": 4751.309583814889,
+      "act_L1": 69498,
+      "act_L2": 55099,
+      "ensemble_agr": 0.14448706805706024
+    },
+    {
+      "net": 0,
+      "label": "flat",
+      "reparam": "T_gamma",
+      "value": 1.0,
+      "test_acc": 0.8536,
+      "hessian_trace": 51.5118673786521,
+      "act_L1": 69498,
+      "act_L2": 55099,
+      "ensemble_agr": 0.14448706805706024
+    },
+    {
+      "net": 0,
+      "label": "flat",
+      "reparam": "T_gamma",
+      "value": 5.0,
+      "test_acc": 0.8536,
+      "hessian_trace": 357.36868658825756,
+      "act_L1": 69498,
+      "act_L2": 55099,
+      "ensemble_agr": 0.14448706805706024
+    },
+    {
+      "net": 0,
+      "label": "flat",
+      "reparam": "T_gamma",
+      "value": 20.0,
+      "test_acc": 0.8536,
+      "hessian_trace": 6046.314896741361,
+      "act_L1": 69498,
+      "act_L2": 55099,
+      "ensemble_agr": 0.14448706805706024
+    },
+    {
+      "net": 5,
+      "label": "flat",
+      "reparam": "T_beta",
+      "value": 1.0,
+      "test_acc": 0.8516,
+      "hessian_trace": 48.25286248832941,
+      "act_L1": 69500,
+      "act_L2": 56282,
+      "ensemble_agr": 0.1512879878282547
+    },
+    {
+      "net": 5,
+      "label": "flat",
+      "reparam": "T_beta",
+      "value": 2.0,
+      "test_acc": 0.8516,
+      "hessian_trace": 65.8389844751358,
+      "act_L1": 69500,
+      "act_L2": 56282,
+      "ensemble_agr": 0.1512879878282547
+    },
+    {
+      "net": 5,
+      "label": "flat",
+      "reparam": "T_beta",
+      "value": 5.0,
+      "test_acc": 0.8516,
+      "hessian_trace": 297.42950606912376,
+      "act_L1": 69500,
+      "act_L2": 56282,
+      "ensemble_agr": 0.1512879878282547
+    },
+    {
+      "net": 5,
+      "label": "flat",
+      "reparam": "T_beta",
+      "value": 10.0,
+      "test_acc": 0.8516,
+      "hessian_trace": 1290.3499549242854,
+      "act_L1": 69500,
+      "act_L2": 56282,
+      "ensemble_agr": 0.1512879878282547
+    },
+    {
+      "net": 5,
+      "label": "flat",
+      "reparam": "T_beta",
+      "value": 20.0,
+      "test_acc": 0.8516,
+      "hessian_trace": 5435.610483606309,
+      "act_L1": 69500,
+      "act_L2": 56282,
+      "ensemble_agr": 0.1512879878282547
+    },
+    {
+      "net": 5,
+      "label": "flat",
+      "reparam": "T_gamma",
+      "value": 1.0,
+      "test_acc": 0.8516,
+      "hessian_trace": 52.00004136703908,
+      "act_L1": 69500,
+      "act_L2": 56282,
+      "ensemble_agr": 0.1512879878282547
+    },
+    {
+      "net": 5,
+      "label": "flat",
+      "reparam": "T_gamma",
+      "value": 5.0,
+      "test_acc": 0.8516,
+      "hessian_trace": 350.28854967966674,
+      "act_L1": 69500,
+      "act_L2": 56282,
+      "ensemble_agr": 0.1512879878282547
+    },
+    {
+      "net": 5,
+      "label": "flat",
+      "reparam": "T_gamma",
+      "value": 20.0,
+      "test_acc": 0.8516,
+      "hessian_trace": 5031.140728921443,
+      "act_L1": 69500,
+      "act_L2": 56282,
+      "ensemble_agr": 0.1512879878282547
+    },
+    {
+      "net": 25,
+      "label": "sharp",
+      "reparam": "T_beta",
+      "value": 1.0,
+      "test_acc": 0.8606,
+      "hessian_trace": 22.39166502803564,
+      "act_L1": 69500,
+      "act_L2": 66721,
+      "ensemble_agr": 0.1242511048913002
+    },
+    {
+      "net": 25,
+      "label": "sharp",
+      "reparam": "T_beta",
+      "value": 2.0,
+      "test_acc": 0.8606,
+      "hessian_trace": 23.998639366440475,
+      "act_L1": 69500,
+      "act_L2": 66721,
+      "ensemble_agr": 0.1242511048913002
+    },
+    {
+      "net": 25,
+      "label": "sharp",
+      "reparam": "T_beta",
+      "value": 5.0,
+      "test_acc": 0.8606,
+      "hessian_trace": 121.43878549147398,
+      "act_L1": 69500,
+      "act_L2": 66721,
+      "ensemble_agr": 0.1242511048913002
+    },
+    {
+      "net": 25,
+      "label": "sharp",
+      "reparam": "T_beta",
+      "value": 10.0,
+      "test_acc": 0.8606,
+      "hessian_trace": 449.2180455507711,
+      "act_L1": 69500,
+      "act_L2": 66721,
+      "ensemble_agr": 0.1242511048913002
+    },
+    {
+      "net": 25,
+      "label": "sharp",
+      "reparam": "T_beta",
+      "value": 20.0,
+      "test_acc": 0.8606,
+      "hessian_trace": 1786.4929628657178,
+      "act_L1": 69500,
+      "act_L2": 66721,
+      "ensemble_agr": 0.1242511048913002
+    },
+    {
+      "net": 25,
+      "label": "sharp",
+      "reparam": "T_gamma",
+      "value": 1.0,
+      "test_acc": 0.8606,
+      "hessian_trace": 22.123753956779836,
+      "act_L1": 69500,
+      "act_L2": 66721,
+      "ensemble_agr": 0.1242511048913002
+    },
+    {
+      "net": 25,
+      "label": "sharp",
+      "reparam": "T_gamma",
+      "value": 5.0,
+      "test_acc": 0.8606,
+      "hessian_trace": 101.2323133418709,
+      "act_L1": 69500,
+      "act_L2": 66721,
+      "ensemble_agr": 0.1242511048913002
+    },
+    {
+      "net": 25,
+      "label": "sharp",
+      "reparam": "T_gamma",
+      "value": 20.0,
+      "test_acc": 0.8606,
+      "hessian_trace": 1659.615443222411,
+      "act_L1": 69500,
+      "act_L2": 66721,
+      "ensemble_agr": 0.1242511048913002
+    },
+    {
+      "net": 30,
+      "label": "sharp",
+      "reparam": "T_beta",
+      "value": 1.0,
+      "test_acc": 0.8659,
+      "hessian_trace": 22.32116889886558,
+      "act_L1": 69498,
+      "act_L2": 65594,
+      "ensemble_agr": 0.12369176745414734
+    },
+    {
+      "net": 30,
+      "label": "sharp",
+      "reparam": "T_beta",
+      "value": 2.0,
+      "test_acc": 0.8659,
+      "hessian_trace": 23.87705379281193,
+      "act_L1": 69498,
+      "act_L2": 65594,
+      "ensemble_agr": 0.12369176745414734
+    },
+    {
+      "net": 30,
+      "label": "sharp",
+      "reparam": "T_beta",
+      "value": 5.0,
+      "test_acc": 0.8659,
+      "hessian_trace": 107.05952674083412,
+      "act_L1": 69498,
+      "act_L2": 65594,
+      "ensemble_agr": 0.12369176745414734
+    },
+    {
+      "net": 30,
+      "label": "sharp",
+      "reparam": "T_beta",
+      "value": 10.0,
+      "test_acc": 0.8659,
+      "hessian_trace": 433.87028132781387,
+      "act_L1": 69498,
+      "act_L2": 65594,
+      "ensemble_agr": 0.12369176745414734
+    },
+    {
+      "net": 30,
+      "label": "sharp",
+      "reparam": "T_beta",
+      "value": 20.0,
+      "test_acc": 0.8659,
+      "hessian_trace": 1688.4320489503443,
+      "act_L1": 69498,
+      "act_L2": 65594,
+      "ensemble_agr": 0.12369176745414734
+    },
+    {
+      "net": 30,
+      "label": "sharp",
+      "reparam": "T_gamma",
+      "value": 1.0,
+      "test_acc": 0.8659,
+      "hessian_trace": 22.411565929725768,
+      "act_L1": 69498,
+      "act_L2": 65594,
+      "ensemble_agr": 0.12369176745414734
+    },
+    {
+      "net": 30,
+      "label": "sharp",
+      "reparam": "T_gamma",
+      "value": 5.0,
+      "test_acc": 0.8659,
+      "hessian_trace": 84.02116480428725,
+      "act_L1": 69498,
+      "act_L2": 65594,
+      "ensemble_agr": 0.12369176745414734
+    },
+    {
+      "net": 30,
+      "label": "sharp",
+      "reparam": "T_gamma",
+      "value": 20.0,
+      "test_acc": 0.8659,
+      "hessian_trace": 1220.8225031664222,
+      "act_L1": 69498,
+      "act_L2": 65594,
+      "ensemble_agr": 0.12369176745414734
+    }
+  ],
+  "correlations": {
+    "Hessian trace": {
+      "r": -0.7453296869609161,
+      "p": 5.352371949947353e-10
+    },
+    "L1 activation patterns": {
+      "r": 0.11492331708490994,
+      "p": 0.4267792704765212
+    },
+    "L2 activation patterns": {
+      "r": 0.7571915705098431,
+      "p": 1.9751144843113631e-10
+    },
+    "Ensemble agreement": {
+      "r": -0.8532872344021623,
+      "p": 3.553284416902735e-15
+    }
+  },
+  "total_time_seconds": 26918.006675481796
+}

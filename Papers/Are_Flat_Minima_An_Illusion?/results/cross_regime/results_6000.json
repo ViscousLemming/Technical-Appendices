@@ -1,0 +1,722 @@
+{
+  "networks": [
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 0,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9392,
+      "hessian_trace": 67.75,
+      "act_patterns_L1": 63998,
+      "act_patterns_L2": 51348,
+      "ensemble_agreement": 0.1909
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 1,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.939,
+      "hessian_trace": 65.57,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 53895,
+      "ensemble_agreement": 0.1909
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 2,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9405,
+      "hessian_trace": 63.03,
+      "act_patterns_L1": 63995,
+      "act_patterns_L2": 53662,
+      "ensemble_agreement": 0.1895
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 3,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.941,
+      "hessian_trace": 63.17,
+      "act_patterns_L1": 63998,
+      "act_patterns_L2": 50217,
+      "ensemble_agreement": 0.1834
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 4,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.941,
+      "hessian_trace": 50.01,
+      "act_patterns_L1": 63998,
+      "act_patterns_L2": 54187,
+      "ensemble_agreement": 0.1825
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 5,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9374,
+      "hessian_trace": 66.22,
+      "act_patterns_L1": 63992,
+      "act_patterns_L2": 53799,
+      "ensemble_agreement": 0.2018
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 6,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9408,
+      "hessian_trace": 70.06,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 54566,
+      "ensemble_agreement": 0.1826
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 7,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9379,
+      "hessian_trace": 66.65,
+      "act_patterns_L1": 63994,
+      "act_patterns_L2": 56768,
+      "ensemble_agreement": 0.2004
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 8,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9389,
+      "hessian_trace": 52.53,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 55988,
+      "ensemble_agreement": 0.1934
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 9,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9377,
+      "hessian_trace": 71.29,
+      "act_patterns_L1": 63996,
+      "act_patterns_L2": 57945,
+      "ensemble_agreement": 0.199
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 10,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9394,
+      "hessian_trace": 52.86,
+      "act_patterns_L1": 63999,
+      "act_patterns_L2": 56767,
+      "ensemble_agreement": 0.1861
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 11,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9434,
+      "hessian_trace": 62.87,
+      "act_patterns_L1": 63997,
+      "act_patterns_L2": 56112,
+      "ensemble_agreement": 0.1735
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 12,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9388,
+      "hessian_trace": 57.81,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 57276,
+      "ensemble_agreement": 0.2002
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 13,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9399,
+      "hessian_trace": 55.16,
+      "act_patterns_L1": 63998,
+      "act_patterns_L2": 53775,
+      "ensemble_agreement": 0.1942
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 14,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9395,
+      "hessian_trace": 58.86,
+      "act_patterns_L1": 63996,
+      "act_patterns_L2": 57362,
+      "ensemble_agreement": 0.1942
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 15,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.939,
+      "hessian_trace": 67.15,
+      "act_patterns_L1": 63994,
+      "act_patterns_L2": 54890,
+      "ensemble_agreement": 0.187
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 16,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9405,
+      "hessian_trace": 61.29,
+      "act_patterns_L1": 63999,
+      "act_patterns_L2": 59819,
+      "ensemble_agreement": 0.1841
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 17,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.941,
+      "hessian_trace": 66.8,
+      "act_patterns_L1": 63998,
+      "act_patterns_L2": 52624,
+      "ensemble_agreement": 0.1912
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 18,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9398,
+      "hessian_trace": 62.2,
+      "act_patterns_L1": 63993,
+      "act_patterns_L2": 51793,
+      "ensemble_agreement": 0.1839
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 19,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9378,
+      "hessian_trace": 65.22,
+      "act_patterns_L1": 63996,
+      "act_patterns_L2": 51960,
+      "ensemble_agreement": 0.2013
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 20,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9384,
+      "hessian_trace": 68.56,
+      "act_patterns_L1": 63995,
+      "act_patterns_L2": 50793,
+      "ensemble_agreement": 0.1862
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 21,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.94,
+      "hessian_trace": 54.01,
+      "act_patterns_L1": 63986,
+      "act_patterns_L2": 56330,
+      "ensemble_agreement": 0.1873
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 22,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9408,
+      "hessian_trace": 54.63,
+      "act_patterns_L1": 63995,
+      "act_patterns_L2": 54240,
+      "ensemble_agreement": 0.1851
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 23,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9404,
+      "hessian_trace": 58.3,
+      "act_patterns_L1": 63980,
+      "act_patterns_L2": 56008,
+      "ensemble_agreement": 0.1882
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 24,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9386,
+      "hessian_trace": 64.96,
+      "act_patterns_L1": 63996,
+      "act_patterns_L2": 52113,
+      "ensemble_agreement": 0.1957
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 100,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9476,
+      "hessian_trace": 22.48,
+      "act_patterns_L1": 63999,
+      "act_patterns_L2": 63101,
+      "ensemble_agreement": 0.1399
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 101,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.949,
+      "hessian_trace": 25.56,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 63129,
+      "ensemble_agreement": 0.126
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 102,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9491,
+      "hessian_trace": 29.37,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 63522,
+      "ensemble_agreement": 0.1322
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 103,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.949,
+      "hessian_trace": 27.22,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 63334,
+      "ensemble_agreement": 0.1273
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 104,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9507,
+      "hessian_trace": 28.69,
+      "act_patterns_L1": 63996,
+      "act_patterns_L2": 63280,
+      "ensemble_agreement": 0.14
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 105,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9498,
+      "hessian_trace": 24.06,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 62746,
+      "ensemble_agreement": 0.1233
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 106,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9509,
+      "hessian_trace": 22.11,
+      "act_patterns_L1": 63996,
+      "act_patterns_L2": 63436,
+      "ensemble_agreement": 0.129
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 107,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9491,
+      "hessian_trace": 24.11,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 63358,
+      "ensemble_agreement": 0.1213
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 108,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9491,
+      "hessian_trace": 27.7,
+      "act_patterns_L1": 63999,
+      "act_patterns_L2": 63162,
+      "ensemble_agreement": 0.1239
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 109,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9505,
+      "hessian_trace": 23.98,
+      "act_patterns_L1": 63999,
+      "act_patterns_L2": 62900,
+      "ensemble_agreement": 0.1191
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 110,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9501,
+      "hessian_trace": 25.14,
+      "act_patterns_L1": 63999,
+      "act_patterns_L2": 63058,
+      "ensemble_agreement": 0.1291
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 111,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9509,
+      "hessian_trace": 29.41,
+      "act_patterns_L1": 63997,
+      "act_patterns_L2": 63041,
+      "ensemble_agreement": 0.1376
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 112,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9474,
+      "hessian_trace": 25.56,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 62825,
+      "ensemble_agreement": 0.128
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 113,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.95,
+      "hessian_trace": 25.36,
+      "act_patterns_L1": 63998,
+      "act_patterns_L2": 62990,
+      "ensemble_agreement": 0.1336
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 114,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9513,
+      "hessian_trace": 28.0,
+      "act_patterns_L1": 63999,
+      "act_patterns_L2": 63681,
+      "ensemble_agreement": 0.1271
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 115,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9477,
+      "hessian_trace": 25.52,
+      "act_patterns_L1": 63999,
+      "act_patterns_L2": 62858,
+      "ensemble_agreement": 0.1334
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 116,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9489,
+      "hessian_trace": 24.22,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 63294,
+      "ensemble_agreement": 0.1261
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 117,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9486,
+      "hessian_trace": 25.06,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 62787,
+      "ensemble_agreement": 0.1413
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 118,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9496,
+      "hessian_trace": 25.8,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 63466,
+      "ensemble_agreement": 0.1343
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 119,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9501,
+      "hessian_trace": 26.08,
+      "act_patterns_L1": 63999,
+      "act_patterns_L2": 63376,
+      "ensemble_agreement": 0.1285
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 120,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9488,
+      "hessian_trace": 30.79,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 63416,
+      "ensemble_agreement": 0.1283
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 121,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9491,
+      "hessian_trace": 25.76,
+      "act_patterns_L1": 63998,
+      "act_patterns_L2": 63220,
+      "ensemble_agreement": 0.1341
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 122,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9505,
+      "hessian_trace": 24.7,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 63296,
+      "ensemble_agreement": 0.1186
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 123,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9481,
+      "hessian_trace": 27.74,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 63204,
+      "ensemble_agreement": 0.1294
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.5,
+        "seed": 124,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9487,
+      "hessian_trace": 23.52,
+      "act_patterns_L1": 64000,
+      "act_patterns_L2": 63364,
+      "ensemble_agreement": 0.1232
+    }
+  ],
+  "correlations": {
+    "Hessian trace": {
+      "r": -0.7794994653856318,
+      "p": 2.574994903939574e-11
+    },
+    "L1 activation patterns": {
+      "r": 0.40462372296707766,
+      "p": 0.0035623498576947145
+    },
+    "L2 activation patterns": {
+      "r": 0.7786880329709078,
+      "p": 2.7844070674530784e-11
+    },
+    "Ensemble agreement": {
+      "r": -0.8578807917909316,
+      "p": 1.748481763218622e-15
+    }
+  }
+}

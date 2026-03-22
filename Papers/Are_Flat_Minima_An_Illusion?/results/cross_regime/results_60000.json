@@ -1,0 +1,1126 @@
+{
+  "networks": [
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 0,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9811,
+      "hessian_trace": 32.86,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9143,
+      "ensemble_agreement": 0.2317,
+      "n_wrong_test": 189
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 1,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9813,
+      "hessian_trace": 28.1,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9451,
+      "ensemble_agreement": 0.2118,
+      "n_wrong_test": 187
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 2,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9798,
+      "hessian_trace": 24.92,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9362,
+      "ensemble_agreement": 0.2565,
+      "n_wrong_test": 202
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 3,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9798,
+      "hessian_trace": 33.14,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9573,
+      "ensemble_agreement": 0.2517,
+      "n_wrong_test": 202
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 4,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9802,
+      "hessian_trace": 29.13,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9716,
+      "ensemble_agreement": 0.2616,
+      "n_wrong_test": 198
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 5,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.981,
+      "hessian_trace": 28.12,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9475,
+      "ensemble_agreement": 0.2237,
+      "n_wrong_test": 190
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 6,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9804,
+      "hessian_trace": 34.0,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9587,
+      "ensemble_agreement": 0.2503,
+      "n_wrong_test": 196
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 7,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9811,
+      "hessian_trace": 33.38,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9410,
+      "ensemble_agreement": 0.2225,
+      "n_wrong_test": 189
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 8,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9794,
+      "hessian_trace": 27.11,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9217,
+      "ensemble_agreement": 0.2589,
+      "n_wrong_test": 206
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 9,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9798,
+      "hessian_trace": 27.38,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9560,
+      "ensemble_agreement": 0.2576,
+      "n_wrong_test": 202
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 10,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.981,
+      "hessian_trace": 23.23,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9711,
+      "ensemble_agreement": 0.2334,
+      "n_wrong_test": 190
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 11,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9803,
+      "hessian_trace": 30.42,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9689,
+      "ensemble_agreement": 0.2512,
+      "n_wrong_test": 197
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 12,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9796,
+      "hessian_trace": 25.65,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9781,
+      "ensemble_agreement": 0.2615,
+      "n_wrong_test": 204
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 13,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9804,
+      "hessian_trace": 31.0,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9352,
+      "ensemble_agreement": 0.2426,
+      "n_wrong_test": 196
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 14,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9805,
+      "hessian_trace": 22.81,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9548,
+      "ensemble_agreement": 0.2412,
+      "n_wrong_test": 195
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 15,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9789,
+      "hessian_trace": 24.7,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9579,
+      "ensemble_agreement": 0.251,
+      "n_wrong_test": 211
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 16,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9791,
+      "hessian_trace": 31.69,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9729,
+      "ensemble_agreement": 0.2779,
+      "n_wrong_test": 209
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 17,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9798,
+      "hessian_trace": 27.25,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9406,
+      "ensemble_agreement": 0.267,
+      "n_wrong_test": 202
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 18,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9816,
+      "hessian_trace": 28.54,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9167,
+      "ensemble_agreement": 0.2147,
+      "n_wrong_test": 184
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 19,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.979,
+      "hessian_trace": 24.52,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9259,
+      "ensemble_agreement": 0.2667,
+      "n_wrong_test": 210
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 20,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9797,
+      "hessian_trace": 35.04,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9197,
+      "ensemble_agreement": 0.249,
+      "n_wrong_test": 203
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 21,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9811,
+      "hessian_trace": 36.44,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9641,
+      "ensemble_agreement": 0.2316,
+      "n_wrong_test": 189
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 22,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9801,
+      "hessian_trace": 37.11,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9802,
+      "ensemble_agreement": 0.2387,
+      "n_wrong_test": 199
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 23,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9795,
+      "hessian_trace": 37.87,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9777,
+      "ensemble_agreement": 0.2497,
+      "n_wrong_test": 205
+    },
+    {
+      "config": {
+        "batch_size": 64,
+        "lr": 0.01,
+        "seed": 24,
+        "label": "flat"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9811,
+      "hessian_trace": 37.03,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9475,
+      "ensemble_agreement": 0.2225,
+      "n_wrong_test": 189
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 100,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9803,
+      "hessian_trace": 24.02,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9880,
+      "ensemble_agreement": 0.2434,
+      "n_wrong_test": 197
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 101,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9813,
+      "hessian_trace": 28.16,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9928,
+      "ensemble_agreement": 0.225,
+      "n_wrong_test": 187
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 102,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9809,
+      "hessian_trace": 33.76,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9709,
+      "ensemble_agreement": 0.2214,
+      "n_wrong_test": 191
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 103,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9806,
+      "hessian_trace": 22.47,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9870,
+      "ensemble_agreement": 0.2207,
+      "n_wrong_test": 194
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 104,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9809,
+      "hessian_trace": 27.88,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9836,
+      "ensemble_agreement": 0.2215,
+      "n_wrong_test": 191
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 105,
+        "label": "sharp"
+      },
+      "train_acc": 0.999983,
+      "test_acc": 0.9799,
+      "hessian_trace": 26.04,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9878,
+      "ensemble_agreement": 0.2274,
+      "n_wrong_test": 201
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 106,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9815,
+      "hessian_trace": 22.76,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9743,
+      "ensemble_agreement": 0.1983,
+      "n_wrong_test": 185
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 107,
+        "label": "sharp"
+      },
+      "train_acc": 0.999983,
+      "test_acc": 0.9804,
+      "hessian_trace": 29.8,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9858,
+      "ensemble_agreement": 0.2396,
+      "n_wrong_test": 196
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 108,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9805,
+      "hessian_trace": 22.55,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9920,
+      "ensemble_agreement": 0.2882,
+      "n_wrong_test": 195
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 109,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9793,
+      "hessian_trace": 20.22,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9884,
+      "ensemble_agreement": 0.24,
+      "n_wrong_test": 207
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 110,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9801,
+      "hessian_trace": 26.34,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9852,
+      "ensemble_agreement": 0.2429,
+      "n_wrong_test": 199
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 111,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9798,
+      "hessian_trace": 28.25,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9883,
+      "ensemble_agreement": 0.252,
+      "n_wrong_test": 202
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 112,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.982,
+      "hessian_trace": 29.29,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9942,
+      "ensemble_agreement": 0.2076,
+      "n_wrong_test": 180
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 113,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9808,
+      "hessian_trace": 24.32,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9856,
+      "ensemble_agreement": 0.2329,
+      "n_wrong_test": 192
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 114,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9796,
+      "hessian_trace": 24.88,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9905,
+      "ensemble_agreement": 0.2422,
+      "n_wrong_test": 204
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 115,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9813,
+      "hessian_trace": 26.17,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9857,
+      "ensemble_agreement": 0.2247,
+      "n_wrong_test": 187
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 116,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9792,
+      "hessian_trace": 28.65,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9646,
+      "ensemble_agreement": 0.2519,
+      "n_wrong_test": 208
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 117,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9802,
+      "hessian_trace": 25.55,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9781,
+      "ensemble_agreement": 0.2422,
+      "n_wrong_test": 198
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 118,
+        "label": "sharp"
+      },
+      "train_acc": 0.999983,
+      "test_acc": 0.9805,
+      "hessian_trace": 27.41,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9929,
+      "ensemble_agreement": 0.2293,
+      "n_wrong_test": 195
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 119,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9805,
+      "hessian_trace": 24.75,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9828,
+      "ensemble_agreement": 0.2343,
+      "n_wrong_test": 195
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 120,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9809,
+      "hessian_trace": 22.35,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9937,
+      "ensemble_agreement": 0.2077,
+      "n_wrong_test": 191
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 121,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9792,
+      "hessian_trace": 31.03,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9915,
+      "ensemble_agreement": 0.2638,
+      "n_wrong_test": 208
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 122,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9808,
+      "hessian_trace": 21.6,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9940,
+      "ensemble_agreement": 0.2102,
+      "n_wrong_test": 192
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 123,
+        "label": "sharp"
+      },
+      "train_acc": 0.999983,
+      "test_acc": 0.9809,
+      "hessian_trace": 29.45,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9876,
+      "ensemble_agreement": 0.2172,
+      "n_wrong_test": 191
+    },
+    {
+      "config": {
+        "batch_size": 4096,
+        "lr": 0.3,
+        "seed": 124,
+        "label": "sharp"
+      },
+      "train_acc": 1.0,
+      "test_acc": 0.9798,
+      "hessian_trace": 23.15,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9937,
+      "ensemble_agreement": 0.2487,
+      "n_wrong_test": 202
+    }
+  ],
+  "reparameterisation": [
+    {
+      "net": 0,
+      "regime": "flat",
+      "reparam": "T_beta",
+      "value": 1.0,
+      "test_acc": 0.9811,
+      "hessian_trace": 26.87,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9143,
+      "ensemble_agreement": 0.2317
+    },
+    {
+      "net": 0,
+      "regime": "flat",
+      "reparam": "T_beta",
+      "value": 2.0,
+      "test_acc": 0.9811,
+      "hessian_trace": 25.21,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9143,
+      "ensemble_agreement": 0.2317
+    },
+    {
+      "net": 0,
+      "regime": "flat",
+      "reparam": "T_beta",
+      "value": 5.0,
+      "test_acc": 0.9811,
+      "hessian_trace": 150.21,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9143,
+      "ensemble_agreement": 0.2317
+    },
+    {
+      "net": 0,
+      "regime": "flat",
+      "reparam": "T_beta",
+      "value": 10.0,
+      "test_acc": 0.9811,
+      "hessian_trace": 393.81,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9143,
+      "ensemble_agreement": 0.2317
+    },
+    {
+      "net": 0,
+      "regime": "flat",
+      "reparam": "T_beta",
+      "value": 20.0,
+      "test_acc": 0.9811,
+      "hessian_trace": 1885.79,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9143,
+      "ensemble_agreement": 0.2317
+    },
+    {
+      "net": 0,
+      "regime": "flat",
+      "reparam": "T_gamma",
+      "value": 1.0,
+      "test_acc": 0.9811,
+      "hessian_trace": 22.72,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9143,
+      "ensemble_agreement": 0.2317
+    },
+    {
+      "net": 0,
+      "regime": "flat",
+      "reparam": "T_gamma",
+      "value": 5.0,
+      "test_acc": 0.9811,
+      "hessian_trace": 53.09,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9143,
+      "ensemble_agreement": 0.2317
+    },
+    {
+      "net": 0,
+      "regime": "flat",
+      "reparam": "T_gamma",
+      "value": 20.0,
+      "test_acc": 0.9811,
+      "hessian_trace": 398.03,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9143,
+      "ensemble_agreement": 0.2317
+    },
+    {
+      "net": 5,
+      "regime": "flat",
+      "reparam": "T_beta",
+      "value": 1.0,
+      "test_acc": 0.981,
+      "hessian_trace": 33.96,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9475,
+      "ensemble_agreement": 0.2237
+    },
+    {
+      "net": 5,
+      "regime": "flat",
+      "reparam": "T_beta",
+      "value": 2.0,
+      "test_acc": 0.981,
+      "hessian_trace": 30.5,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9475,
+      "ensemble_agreement": 0.2237
+    },
+    {
+      "net": 5,
+      "regime": "flat",
+      "reparam": "T_beta",
+      "value": 5.0,
+      "test_acc": 0.981,
+      "hessian_trace": 112.36,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9475,
+      "ensemble_agreement": 0.2237
+    },
+    {
+      "net": 5,
+      "regime": "flat",
+      "reparam": "T_beta",
+      "value": 10.0,
+      "test_acc": 0.981,
+      "hessian_trace": 449.98,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9475,
+      "ensemble_agreement": 0.2237
+    },
+    {
+      "net": 5,
+      "regime": "flat",
+      "reparam": "T_beta",
+      "value": 20.0,
+      "test_acc": 0.981,
+      "hessian_trace": 1498.17,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9475,
+      "ensemble_agreement": 0.2237
+    },
+    {
+      "net": 5,
+      "regime": "flat",
+      "reparam": "T_gamma",
+      "value": 1.0,
+      "test_acc": 0.981,
+      "hessian_trace": 31.1,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9475,
+      "ensemble_agreement": 0.2237
+    },
+    {
+      "net": 5,
+      "regime": "flat",
+      "reparam": "T_gamma",
+      "value": 5.0,
+      "test_acc": 0.981,
+      "hessian_trace": 43.78,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9475,
+      "ensemble_agreement": 0.2237
+    },
+    {
+      "net": 5,
+      "regime": "flat",
+      "reparam": "T_gamma",
+      "value": 20.0,
+      "test_acc": 0.981,
+      "hessian_trace": 512.12,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9475,
+      "ensemble_agreement": 0.2237
+    },
+    {
+      "net": 25,
+      "regime": "sharp",
+      "reparam": "T_beta",
+      "value": 1.0,
+      "test_acc": 0.9803,
+      "hessian_trace": 22.98,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9880,
+      "ensemble_agreement": 0.2434
+    },
+    {
+      "net": 25,
+      "regime": "sharp",
+      "reparam": "T_beta",
+      "value": 2.0,
+      "test_acc": 0.9803,
+      "hessian_trace": 22.4,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9880,
+      "ensemble_agreement": 0.2434
+    },
+    {
+      "net": 25,
+      "regime": "sharp",
+      "reparam": "T_beta",
+      "value": 5.0,
+      "test_acc": 0.9803,
+      "hessian_trace": 100.2,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9880,
+      "ensemble_agreement": 0.2434
+    },
+    {
+      "net": 25,
+      "regime": "sharp",
+      "reparam": "T_beta",
+      "value": 10.0,
+      "test_acc": 0.9803,
+      "hessian_trace": 319.36,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9880,
+      "ensemble_agreement": 0.2434
+    },
+    {
+      "net": 25,
+      "regime": "sharp",
+      "reparam": "T_beta",
+      "value": 20.0,
+      "test_acc": 0.9803,
+      "hessian_trace": 1262.42,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9880,
+      "ensemble_agreement": 0.2434
+    },
+    {
+      "net": 25,
+      "regime": "sharp",
+      "reparam": "T_gamma",
+      "value": 1.0,
+      "test_acc": 0.9803,
+      "hessian_trace": 26.66,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9880,
+      "ensemble_agreement": 0.2434
+    },
+    {
+      "net": 25,
+      "regime": "sharp",
+      "reparam": "T_gamma",
+      "value": 5.0,
+      "test_acc": 0.9803,
+      "hessian_trace": 34.4,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9880,
+      "ensemble_agreement": 0.2434
+    },
+    {
+      "net": 25,
+      "regime": "sharp",
+      "reparam": "T_gamma",
+      "value": 20.0,
+      "test_acc": 0.9803,
+      "hessian_trace": 410.59,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9880,
+      "ensemble_agreement": 0.2434
+    },
+    {
+      "net": 30,
+      "regime": "sharp",
+      "reparam": "T_beta",
+      "value": 1.0,
+      "test_acc": 0.9799,
+      "hessian_trace": 33.44,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9878,
+      "ensemble_agreement": 0.2274
+    },
+    {
+      "net": 30,
+      "regime": "sharp",
+      "reparam": "T_beta",
+      "value": 2.0,
+      "test_acc": 0.9799,
+      "hessian_trace": 19.43,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9878,
+      "ensemble_agreement": 0.2274
+    },
+    {
+      "net": 30,
+      "regime": "sharp",
+      "reparam": "T_beta",
+      "value": 5.0,
+      "test_acc": 0.9799,
+      "hessian_trace": 101.06,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9878,
+      "ensemble_agreement": 0.2274
+    },
+    {
+      "net": 30,
+      "regime": "sharp",
+      "reparam": "T_beta",
+      "value": 10.0,
+      "test_acc": 0.9799,
+      "hessian_trace": 357.66,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9878,
+      "ensemble_agreement": 0.2274
+    },
+    {
+      "net": 30,
+      "regime": "sharp",
+      "reparam": "T_beta",
+      "value": 20.0,
+      "test_acc": 0.9799,
+      "hessian_trace": 1383.04,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9878,
+      "ensemble_agreement": 0.2274
+    },
+    {
+      "net": 30,
+      "regime": "sharp",
+      "reparam": "T_gamma",
+      "value": 1.0,
+      "test_acc": 0.9799,
+      "hessian_trace": 24.88,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9878,
+      "ensemble_agreement": 0.2274
+    },
+    {
+      "net": 30,
+      "regime": "sharp",
+      "reparam": "T_gamma",
+      "value": 5.0,
+      "test_acc": 0.9799,
+      "hessian_trace": 47.3,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9878,
+      "ensemble_agreement": 0.2274
+    },
+    {
+      "net": 30,
+      "regime": "sharp",
+      "reparam": "T_gamma",
+      "value": 20.0,
+      "test_acc": 0.9799,
+      "hessian_trace": 390.26,
+      "act_patterns_L1": 10000,
+      "act_patterns_L2": 9878,
+      "ensemble_agreement": 0.2274
+    }
+  ],
+  "correlations": {
+    "hessian": {
+      "rho": 0.04613912801848262,
+      "p": 0.7503555815041516
+    },
+    "l1": {
+      "rho": NaN,
+      "p": NaN
+    },
+    "l2": {
+      "rho": 0.048018943504377944,
+      "p": 0.7405325075788699
+    },
+    "ea": {
+      "rho": -0.8099513874456848,
+      "p": 1.054172985430549e-12
+    }
+  }
+}

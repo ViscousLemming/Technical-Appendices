@@ -1,0 +1,1002 @@
+[
+  {
+    "seed": 0,
+    "train_acc": 1.0,
+    "test_acc": 0.7508,
+    "pair_proxy": 894,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.894,
+    "hessian": 47.50727647940318,
+    "weight_norm": 8.993219470496479
+  },
+  {
+    "seed": 1,
+    "train_acc": 1.0,
+    "test_acc": 0.7704,
+    "pair_proxy": 841,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.841,
+    "hessian": 49.0868897644182,
+    "weight_norm": 9.072842984203819
+  },
+  {
+    "seed": 2,
+    "train_acc": 1.0,
+    "test_acc": 0.7537,
+    "pair_proxy": 892,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.892,
+    "hessian": 70.69221105575562,
+    "weight_norm": 8.732069599237471
+  },
+  {
+    "seed": 3,
+    "train_acc": 1.0,
+    "test_acc": 0.7675,
+    "pair_proxy": 950,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.95,
+    "hessian": 35.50997744028767,
+    "weight_norm": 9.310554535990697
+  },
+  {
+    "seed": 4,
+    "train_acc": 1.0,
+    "test_acc": 0.7832,
+    "pair_proxy": 909,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.909,
+    "hessian": 43.64542841215928,
+    "weight_norm": 8.986643945414702
+  },
+  {
+    "seed": 5,
+    "train_acc": 1.0,
+    "test_acc": 0.7612,
+    "pair_proxy": 727,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.727,
+    "hessian": 74.66920880998174,
+    "weight_norm": 8.524083132919516
+  },
+  {
+    "seed": 6,
+    "train_acc": 1.0,
+    "test_acc": 0.775,
+    "pair_proxy": 953,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.953,
+    "hessian": 50.317185856898625,
+    "weight_norm": 8.7599987734103
+  },
+  {
+    "seed": 7,
+    "train_acc": 1.0,
+    "test_acc": 0.7397,
+    "pair_proxy": 752,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.752,
+    "hessian": 70.64740847845873,
+    "weight_norm": 8.71178273658804
+  },
+  {
+    "seed": 8,
+    "train_acc": 1.0,
+    "test_acc": 0.7829,
+    "pair_proxy": 939,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.939,
+    "hessian": 60.577200173338255,
+    "weight_norm": 8.776411161561427
+  },
+  {
+    "seed": 9,
+    "train_acc": 1.0,
+    "test_acc": 0.7886,
+    "pair_proxy": 885,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.885,
+    "hessian": 49.67302818180372,
+    "weight_norm": 8.755330239258228
+  },
+  {
+    "seed": 10,
+    "train_acc": 1.0,
+    "test_acc": 0.7825,
+    "pair_proxy": 948,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.948,
+    "hessian": 17.29777538049966,
+    "weight_norm": 9.819750022348307
+  },
+  {
+    "seed": 11,
+    "train_acc": 1.0,
+    "test_acc": 0.7306,
+    "pair_proxy": 916,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.916,
+    "hessian": 12.90270865308121,
+    "weight_norm": 9.73147028508894
+  },
+  {
+    "seed": 12,
+    "train_acc": 1.0,
+    "test_acc": 0.7514,
+    "pair_proxy": 956,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.956,
+    "hessian": 42.494594167545436,
+    "weight_norm": 9.11420858616838
+  },
+  {
+    "seed": 13,
+    "train_acc": 1.0,
+    "test_acc": 0.7756,
+    "pair_proxy": 905,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.905,
+    "hessian": 28.617600053548813,
+    "weight_norm": 9.230568655373583
+  },
+  {
+    "seed": 14,
+    "train_acc": 1.0,
+    "test_acc": 0.7719,
+    "pair_proxy": 903,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.903,
+    "hessian": 73.25266817410787,
+    "weight_norm": 8.388538368577446
+  },
+  {
+    "seed": 15,
+    "train_acc": 1.0,
+    "test_acc": 0.7744,
+    "pair_proxy": 922,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.922,
+    "hessian": 44.46318364267548,
+    "weight_norm": 8.994917315062162
+  },
+  {
+    "seed": 16,
+    "train_acc": 1.0,
+    "test_acc": 0.7404,
+    "pair_proxy": 863,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.863,
+    "hessian": 59.267721977829936,
+    "weight_norm": 8.779770071044913
+  },
+  {
+    "seed": 17,
+    "train_acc": 1.0,
+    "test_acc": 0.7576,
+    "pair_proxy": 866,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.866,
+    "hessian": 62.378587030867735,
+    "weight_norm": 8.967837155890075
+  },
+  {
+    "seed": 18,
+    "train_acc": 1.0,
+    "test_acc": 0.7619,
+    "pair_proxy": 859,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.859,
+    "hessian": 60.641573156540595,
+    "weight_norm": 8.833593069486325
+  },
+  {
+    "seed": 19,
+    "train_acc": 1.0,
+    "test_acc": 0.7728,
+    "pair_proxy": 848,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.848,
+    "hessian": 25.628888754049935,
+    "weight_norm": 9.196615211245751
+  },
+  {
+    "seed": 20,
+    "train_acc": 1.0,
+    "test_acc": 0.7437,
+    "pair_proxy": 917,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.917,
+    "hessian": 36.21928559876979,
+    "weight_norm": 9.176420353107792
+  },
+  {
+    "seed": 21,
+    "train_acc": 1.0,
+    "test_acc": 0.7936,
+    "pair_proxy": 899,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.899,
+    "hessian": 48.65643039047718,
+    "weight_norm": 8.873122905779907
+  },
+  {
+    "seed": 22,
+    "train_acc": 1.0,
+    "test_acc": 0.7909,
+    "pair_proxy": 885,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.885,
+    "hessian": 43.67916244554023,
+    "weight_norm": 8.9173337179928
+  },
+  {
+    "seed": 23,
+    "train_acc": 1.0,
+    "test_acc": 0.7607,
+    "pair_proxy": 942,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.942,
+    "hessian": 53.39940822670857,
+    "weight_norm": 8.994660800445459
+  },
+  {
+    "seed": 24,
+    "train_acc": 1.0,
+    "test_acc": 0.7143,
+    "pair_proxy": 744,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.744,
+    "hessian": 60.59299100873371,
+    "weight_norm": 9.206714511444188
+  },
+  {
+    "seed": 25,
+    "train_acc": 1.0,
+    "test_acc": 0.7374,
+    "pair_proxy": 703,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.703,
+    "hessian": 13.179652779735624,
+    "weight_norm": 10.249814340656412
+  },
+  {
+    "seed": 26,
+    "train_acc": 1.0,
+    "test_acc": 0.779,
+    "pair_proxy": 890,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.89,
+    "hessian": 47.288466859857245,
+    "weight_norm": 8.780560120572348
+  },
+  {
+    "seed": 27,
+    "train_acc": 1.0,
+    "test_acc": 0.7664,
+    "pair_proxy": 885,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.885,
+    "hessian": 25.32392759571473,
+    "weight_norm": 9.242365287440723
+  },
+  {
+    "seed": 28,
+    "train_acc": 1.0,
+    "test_acc": 0.7279,
+    "pair_proxy": 828,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.828,
+    "hessian": 47.009156882266204,
+    "weight_norm": 9.425703540755881
+  },
+  {
+    "seed": 29,
+    "train_acc": 1.0,
+    "test_acc": 0.7864,
+    "pair_proxy": 903,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.903,
+    "hessian": 17.496659350953998,
+    "weight_norm": 9.640748768415326
+  },
+  {
+    "seed": 30,
+    "train_acc": 1.0,
+    "test_acc": 0.7258,
+    "pair_proxy": 647,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.647,
+    "hessian": 65.79378568679094,
+    "weight_norm": 8.445433655230593
+  },
+  {
+    "seed": 31,
+    "train_acc": 1.0,
+    "test_acc": 0.7503,
+    "pair_proxy": 886,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.886,
+    "hessian": 35.07547655403614,
+    "weight_norm": 9.201946113240691
+  },
+  {
+    "seed": 32,
+    "train_acc": 1.0,
+    "test_acc": 0.7482,
+    "pair_proxy": 801,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.801,
+    "hessian": 83.45926812489827,
+    "weight_norm": 8.665531160968682
+  },
+  {
+    "seed": 33,
+    "train_acc": 1.0,
+    "test_acc": 0.746,
+    "pair_proxy": 814,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.814,
+    "hessian": 62.990198095142844,
+    "weight_norm": 8.802045563000199
+  },
+  {
+    "seed": 34,
+    "train_acc": 1.0,
+    "test_acc": 0.7771,
+    "pair_proxy": 961,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.961,
+    "hessian": 54.51357611070077,
+    "weight_norm": 8.832467894883136
+  },
+  {
+    "seed": 35,
+    "train_acc": 1.0,
+    "test_acc": 0.7827,
+    "pair_proxy": 895,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.895,
+    "hessian": 23.44753649029881,
+    "weight_norm": 9.385912588100783
+  },
+  {
+    "seed": 36,
+    "train_acc": 1.0,
+    "test_acc": 0.7228,
+    "pair_proxy": 734,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.734,
+    "hessian": 68.78708235497275,
+    "weight_norm": 8.750765301330317
+  },
+  {
+    "seed": 37,
+    "train_acc": 1.0,
+    "test_acc": 0.7627,
+    "pair_proxy": 930,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.93,
+    "hessian": 64.01270875682434,
+    "weight_norm": 8.96530118775319
+  },
+  {
+    "seed": 38,
+    "train_acc": 1.0,
+    "test_acc": 0.7783,
+    "pair_proxy": 911,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.911,
+    "hessian": 29.863512210547924,
+    "weight_norm": 9.280396461719286
+  },
+  {
+    "seed": 39,
+    "train_acc": 1.0,
+    "test_acc": 0.7538,
+    "pair_proxy": 889,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.889,
+    "hessian": 45.417343591153625,
+    "weight_norm": 8.911183448938978
+  },
+  {
+    "seed": 40,
+    "train_acc": 1.0,
+    "test_acc": 0.7824,
+    "pair_proxy": 810,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.81,
+    "hessian": 34.95041588495175,
+    "weight_norm": 9.297643630629965
+  },
+  {
+    "seed": 41,
+    "train_acc": 1.0,
+    "test_acc": 0.7665,
+    "pair_proxy": 895,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.895,
+    "hessian": 50.57720502217611,
+    "weight_norm": 9.028910623272722
+  },
+  {
+    "seed": 42,
+    "train_acc": 1.0,
+    "test_acc": 0.7836,
+    "pair_proxy": 945,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.945,
+    "hessian": 43.79728619108597,
+    "weight_norm": 8.93307375233392
+  },
+  {
+    "seed": 43,
+    "train_acc": 1.0,
+    "test_acc": 0.7761,
+    "pair_proxy": 899,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.899,
+    "hessian": 17.58337346613407,
+    "weight_norm": 9.623716546089463
+  },
+  {
+    "seed": 44,
+    "train_acc": 1.0,
+    "test_acc": 0.7564,
+    "pair_proxy": 822,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.822,
+    "hessian": 50.676586424311004,
+    "weight_norm": 9.038667925193476
+  },
+  {
+    "seed": 45,
+    "train_acc": 1.0,
+    "test_acc": 0.7619,
+    "pair_proxy": 871,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.871,
+    "hessian": 15.762868562806398,
+    "weight_norm": 9.887305741878585
+  },
+  {
+    "seed": 46,
+    "train_acc": 1.0,
+    "test_acc": 0.7371,
+    "pair_proxy": 943,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.943,
+    "hessian": 19.59467943335573,
+    "weight_norm": 9.877600698104683
+  },
+  {
+    "seed": 47,
+    "train_acc": 1.0,
+    "test_acc": 0.7769,
+    "pair_proxy": 954,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.954,
+    "hessian": 20.682814533325534,
+    "weight_norm": 9.239531787111094
+  },
+  {
+    "seed": 48,
+    "train_acc": 0.996,
+    "test_acc": 0.7767,
+    "pair_proxy": 953,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.953,
+    "hessian": 3.683551970636472,
+    "weight_norm": 10.678510390022376
+  },
+  {
+    "seed": 49,
+    "train_acc": 1.0,
+    "test_acc": 0.7765,
+    "pair_proxy": 940,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.94,
+    "hessian": 27.937042518456778,
+    "weight_norm": 9.259297290687938
+  },
+  {
+    "seed": 50,
+    "train_acc": 1.0,
+    "test_acc": 0.7616,
+    "pair_proxy": 870,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.87,
+    "hessian": 58.464928395797806,
+    "weight_norm": 8.738895618836565
+  },
+  {
+    "seed": 51,
+    "train_acc": 1.0,
+    "test_acc": 0.7605,
+    "pair_proxy": 952,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.952,
+    "hessian": 28.36652965924392,
+    "weight_norm": 9.497514100954566
+  },
+  {
+    "seed": 52,
+    "train_acc": 1.0,
+    "test_acc": 0.743,
+    "pair_proxy": 894,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.894,
+    "hessian": 48.49659256488085,
+    "weight_norm": 9.107023326171495
+  },
+  {
+    "seed": 53,
+    "train_acc": 1.0,
+    "test_acc": 0.7655,
+    "pair_proxy": 909,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.909,
+    "hessian": 22.5488508598879,
+    "weight_norm": 9.607823413758648
+  },
+  {
+    "seed": 54,
+    "train_acc": 1.0,
+    "test_acc": 0.7625,
+    "pair_proxy": 884,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.884,
+    "hessian": 10.324627688961725,
+    "weight_norm": 9.916197164336774
+  },
+  {
+    "seed": 55,
+    "train_acc": 1.0,
+    "test_acc": 0.7391,
+    "pair_proxy": 800,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.8,
+    "hessian": 29.5190252603963,
+    "weight_norm": 9.277353837991653
+  },
+  {
+    "seed": 56,
+    "train_acc": 1.0,
+    "test_acc": 0.7853,
+    "pair_proxy": 943,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.943,
+    "hessian": 50.914979105939466,
+    "weight_norm": 8.70174900385611
+  },
+  {
+    "seed": 57,
+    "train_acc": 1.0,
+    "test_acc": 0.7593,
+    "pair_proxy": 884,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.884,
+    "hessian": 70.72167440503836,
+    "weight_norm": 8.478217479768775
+  },
+  {
+    "seed": 58,
+    "train_acc": 1.0,
+    "test_acc": 0.7978,
+    "pair_proxy": 936,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.936,
+    "hessian": 37.65075044346352,
+    "weight_norm": 9.092793789671145
+  },
+  {
+    "seed": 59,
+    "train_acc": 1.0,
+    "test_acc": 0.7568,
+    "pair_proxy": 937,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.937,
+    "hessian": 36.720583914220335,
+    "weight_norm": 9.057026659134962
+  },
+  {
+    "seed": 60,
+    "train_acc": 1.0,
+    "test_acc": 0.7607,
+    "pair_proxy": 875,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.875,
+    "hessian": 43.84649609476328,
+    "weight_norm": 9.113888866017819
+  },
+  {
+    "seed": 61,
+    "train_acc": 1.0,
+    "test_acc": 0.7561,
+    "pair_proxy": 815,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.815,
+    "hessian": 46.09228330031037,
+    "weight_norm": 9.1596061013706
+  },
+  {
+    "seed": 62,
+    "train_acc": 1.0,
+    "test_acc": 0.7369,
+    "pair_proxy": 874,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.874,
+    "hessian": 62.80582632794976,
+    "weight_norm": 8.843656101858839
+  },
+  {
+    "seed": 63,
+    "train_acc": 1.0,
+    "test_acc": 0.7847,
+    "pair_proxy": 890,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.89,
+    "hessian": 51.49591388553381,
+    "weight_norm": 8.755441598464083
+  },
+  {
+    "seed": 64,
+    "train_acc": 1.0,
+    "test_acc": 0.7285,
+    "pair_proxy": 812,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.812,
+    "hessian": 57.98834295223157,
+    "weight_norm": 8.963608113296708
+  },
+  {
+    "seed": 65,
+    "train_acc": 1.0,
+    "test_acc": 0.7705,
+    "pair_proxy": 914,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.914,
+    "hessian": 26.48931856850783,
+    "weight_norm": 9.553000963119956
+  },
+  {
+    "seed": 66,
+    "train_acc": 1.0,
+    "test_acc": 0.7687,
+    "pair_proxy": 784,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.784,
+    "hessian": 55.196427336707714,
+    "weight_norm": 8.690149511406716
+  },
+  {
+    "seed": 67,
+    "train_acc": 1.0,
+    "test_acc": 0.7512,
+    "pair_proxy": 948,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.948,
+    "hessian": 17.842995263884465,
+    "weight_norm": 9.735456953793546
+  },
+  {
+    "seed": 68,
+    "train_acc": 1.0,
+    "test_acc": 0.7655,
+    "pair_proxy": 932,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.932,
+    "hessian": 35.04526888007919,
+    "weight_norm": 9.381883447785725
+  },
+  {
+    "seed": 69,
+    "train_acc": 1.0,
+    "test_acc": 0.767,
+    "pair_proxy": 886,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.886,
+    "hessian": 18.772086132814486,
+    "weight_norm": 9.474284164217542
+  },
+  {
+    "seed": 70,
+    "train_acc": 1.0,
+    "test_acc": 0.7899,
+    "pair_proxy": 896,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.896,
+    "hessian": 6.1379613790195435,
+    "weight_norm": 10.372820479121458
+  },
+  {
+    "seed": 71,
+    "train_acc": 1.0,
+    "test_acc": 0.7603,
+    "pair_proxy": 940,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.94,
+    "hessian": 28.656011557827394,
+    "weight_norm": 9.335442798321003
+  },
+  {
+    "seed": 72,
+    "train_acc": 1.0,
+    "test_acc": 0.7595,
+    "pair_proxy": 889,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.889,
+    "hessian": 70.48662247508764,
+    "weight_norm": 8.553284439056466
+  },
+  {
+    "seed": 73,
+    "train_acc": 1.0,
+    "test_acc": 0.7574,
+    "pair_proxy": 941,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.941,
+    "hessian": 41.19997947216034,
+    "weight_norm": 9.212464257795096
+  },
+  {
+    "seed": 74,
+    "train_acc": 1.0,
+    "test_acc": 0.771,
+    "pair_proxy": 867,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.867,
+    "hessian": 30.026883781949678,
+    "weight_norm": 9.28836295759557
+  },
+  {
+    "seed": 75,
+    "train_acc": 1.0,
+    "test_acc": 0.7781,
+    "pair_proxy": 925,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.925,
+    "hessian": 9.049250457932551,
+    "weight_norm": 10.089352830591572
+  },
+  {
+    "seed": 76,
+    "train_acc": 1.0,
+    "test_acc": 0.7415,
+    "pair_proxy": 804,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.804,
+    "hessian": 50.061270203193025,
+    "weight_norm": 9.000991051733747
+  },
+  {
+    "seed": 77,
+    "train_acc": 1.0,
+    "test_acc": 0.7768,
+    "pair_proxy": 950,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.95,
+    "hessian": 52.98090240508318,
+    "weight_norm": 8.83424234379613
+  },
+  {
+    "seed": 78,
+    "train_acc": 1.0,
+    "test_acc": 0.7585,
+    "pair_proxy": 932,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.932,
+    "hessian": 58.272428834189974,
+    "weight_norm": 8.758714796131057
+  },
+  {
+    "seed": 79,
+    "train_acc": 1.0,
+    "test_acc": 0.759,
+    "pair_proxy": 923,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.923,
+    "hessian": 68.32523386826118,
+    "weight_norm": 8.626874862853395
+  },
+  {
+    "seed": 80,
+    "train_acc": 1.0,
+    "test_acc": 0.7811,
+    "pair_proxy": 952,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.952,
+    "hessian": 10.221775270594906,
+    "weight_norm": 10.065851135749403
+  },
+  {
+    "seed": 81,
+    "train_acc": 1.0,
+    "test_acc": 0.7848,
+    "pair_proxy": 871,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.871,
+    "hessian": 63.83413156320651,
+    "weight_norm": 8.515456770983459
+  },
+  {
+    "seed": 82,
+    "train_acc": 1.0,
+    "test_acc": 0.7711,
+    "pair_proxy": 968,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.968,
+    "hessian": 48.35458142136534,
+    "weight_norm": 8.877664852151455
+  },
+  {
+    "seed": 83,
+    "train_acc": 1.0,
+    "test_acc": 0.7849,
+    "pair_proxy": 852,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.852,
+    "hessian": 38.015595656385024,
+    "weight_norm": 9.088832565273327
+  },
+  {
+    "seed": 84,
+    "train_acc": 1.0,
+    "test_acc": 0.7515,
+    "pair_proxy": 802,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.802,
+    "hessian": 41.46336553084354,
+    "weight_norm": 9.285550666846722
+  },
+  {
+    "seed": 85,
+    "train_acc": 1.0,
+    "test_acc": 0.7378,
+    "pair_proxy": 959,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.959,
+    "hessian": 19.825988461698095,
+    "weight_norm": 9.806730078103683
+  },
+  {
+    "seed": 86,
+    "train_acc": 1.0,
+    "test_acc": 0.7418,
+    "pair_proxy": 812,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.812,
+    "hessian": 60.92827018822233,
+    "weight_norm": 9.064950944187505
+  },
+  {
+    "seed": 87,
+    "train_acc": 1.0,
+    "test_acc": 0.7705,
+    "pair_proxy": 924,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.924,
+    "hessian": 75.99034509062767,
+    "weight_norm": 8.542142684802753
+  },
+  {
+    "seed": 88,
+    "train_acc": 1.0,
+    "test_acc": 0.7554,
+    "pair_proxy": 897,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.897,
+    "hessian": 32.477467662344374,
+    "weight_norm": 9.329839295690638
+  },
+  {
+    "seed": 89,
+    "train_acc": 1.0,
+    "test_acc": 0.7681,
+    "pair_proxy": 755,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.755,
+    "hessian": 57.38791050836444,
+    "weight_norm": 8.75020709426501
+  },
+  {
+    "seed": 90,
+    "train_acc": 1.0,
+    "test_acc": 0.762,
+    "pair_proxy": 941,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.941,
+    "hessian": 57.19956963310639,
+    "weight_norm": 8.77059277499668
+  },
+  {
+    "seed": 91,
+    "train_acc": 1.0,
+    "test_acc": 0.7655,
+    "pair_proxy": 946,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.946,
+    "hessian": 30.151473807295165,
+    "weight_norm": 9.16409286829149
+  },
+  {
+    "seed": 92,
+    "train_acc": 1.0,
+    "test_acc": 0.7568,
+    "pair_proxy": 910,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.91,
+    "hessian": 44.00247875129183,
+    "weight_norm": 9.117475279593497
+  },
+  {
+    "seed": 93,
+    "train_acc": 1.0,
+    "test_acc": 0.7481,
+    "pair_proxy": 877,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.877,
+    "hessian": 63.540023815135164,
+    "weight_norm": 8.714704270096362
+  },
+  {
+    "seed": 94,
+    "train_acc": 1.0,
+    "test_acc": 0.7487,
+    "pair_proxy": 864,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.864,
+    "hessian": 18.095575533186395,
+    "weight_norm": 9.92048794009649
+  },
+  {
+    "seed": 95,
+    "train_acc": 1.0,
+    "test_acc": 0.7724,
+    "pair_proxy": 884,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.884,
+    "hessian": 32.535752864927055,
+    "weight_norm": 9.299690749039552
+  },
+  {
+    "seed": 96,
+    "train_acc": 1.0,
+    "test_acc": 0.7592,
+    "pair_proxy": 814,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.814,
+    "hessian": 44.909583489100136,
+    "weight_norm": 9.160705411251104
+  },
+  {
+    "seed": 97,
+    "train_acc": 1.0,
+    "test_acc": 0.756,
+    "pair_proxy": 822,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.822,
+    "hessian": 59.43467928506434,
+    "weight_norm": 8.723725093123475
+  },
+  {
+    "seed": 98,
+    "train_acc": 1.0,
+    "test_acc": 0.7817,
+    "pair_proxy": 955,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.955,
+    "hessian": 24.69531048157563,
+    "weight_norm": 9.344435182110516
+  },
+  {
+    "seed": 99,
+    "train_acc": 1.0,
+    "test_acc": 0.7481,
+    "pair_proxy": 932,
+    "pair_proxy_total": 1000,
+    "pair_proxy_frac": 0.932,
+    "hessian": 16.439687837474047,
+    "weight_norm": 9.661542629293828
+  }
+]
