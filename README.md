@@ -7,6 +7,6 @@ Technical Appendices Citation Info:
      year = { 2026 }, \
      url = { https://github.com/ViscousLemming/Technical-Appendices }, \
      doi = { 10.5281/zenodo.7641741 }, \
-     version = { 6.3 }, \
-     urldate = { 2026-03-19 } \
+     version = { 6.4 }, \
+     urldate = { 2026-03-30 } \
 }
