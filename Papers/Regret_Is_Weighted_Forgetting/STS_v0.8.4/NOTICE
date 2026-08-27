@@ -1,0 +1,13 @@
+Stack Theory Suite
+Copyright 2025-2026 Michael Timothy Bennett
+
+This product includes software developed by Michael Timothy Bennett.
+
+Licensed under the Apache License, Version 2.0.
+See the file LICENSE.
+
+Dependencies
+
+This software depends on third party libraries that are distributed under their own licenses.
+Notably, this includes NumPy and PyTorch.
+Those dependencies are not distributed inside this source tree.

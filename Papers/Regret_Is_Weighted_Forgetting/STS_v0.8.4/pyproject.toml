@@ -1,0 +1,59 @@
+# Stack Theory Suite
+# Author: Michael Timothy Bennett
+# Copyright 2026 Michael Timothy Bennett
+# SPDX-License-Identifier: Apache-2.0
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stacktheory-suite"
+version = "0.8.4"
+description = "Stack Theory Suite. Product grade reference implementation of Stack Theory Layers 1 to 5."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Michael Timothy Bennett", email = "m@michaeltimothybennett.com" },
+]
+keywords = [
+  "stack theory",
+  "logic",
+  "SAT",
+  "A*",
+  "learning",
+  "weakness",
+  "minimum description length",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+  "numpy>=1.23",
+  "torch>=2.0",
+]
+
+[project.optional-dependencies]
+quality = [
+  "pytest>=7.0",
+]
+
+[tool.setuptools]
+packages = [
+  "stacktheory",
+  "stacktheory.layer1",
+  "stacktheory.layer2",
+  "stacktheory.layer3",
+  "stacktheory.layer4",
+  "stacktheory.layer5",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["--doctest-modules"]

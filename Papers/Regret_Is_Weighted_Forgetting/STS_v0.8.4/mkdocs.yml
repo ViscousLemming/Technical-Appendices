@@ -1,0 +1,24 @@
+# Stack Theory Suite
+# Author: Michael Timothy Bennett
+# Copyright 2026 Michael Timothy Bennett
+# SPDX-License-Identifier: Apache-2.0
+
+site_name: Stack Theory Suite
+site_description: Documentation for the Stack Theory Suite
+repo_name: stacktheory-suite
+nav:
+  - Home: docs/index.md
+  - Installation: docs/installation.md
+  - Core concepts: docs/core-concepts.md
+  - Glossary: docs/glossary.md
+  - Provenance: docs/provenance.md
+  - Representations: docs/representations.md
+  - Logic: docs/logic.md
+  - SAT: docs/sat.md
+  - Learning: docs/learning.md
+  - Search learners: docs/search-algorithms.md
+  - Heuristics: docs/heuristics.md
+  - Quality and benchmarks: docs/benchmarks-and-quality.md
+  - Architecture: docs/architecture.md
+  - API: docs/api.md
+  - Contributing: docs/contributing.md

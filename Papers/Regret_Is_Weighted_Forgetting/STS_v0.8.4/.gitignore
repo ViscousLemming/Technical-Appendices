@@ -1,0 +1,27 @@
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+pytestdebug.log
+
+# Packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Docs site output
+site/
+
+# Editor folders
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store

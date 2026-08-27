@@ -1,0 +1,7 @@
+include LICENSE
+include NOTICE
+include README.md
+include pyproject.toml
+include paper.md
+include paper.bib
+recursive-include docs *.md
