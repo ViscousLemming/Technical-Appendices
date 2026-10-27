@@ -1,0 +1,83 @@
+05:15:59 E1 part 2 finished
+05:17:03 train: 384 agents to train
+05:24:47 source: 58 of 64 worlds to run
+05:28:47 source wid 020 done 237s
+05:28:50 source wid 023 done 240s
+/usr/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 5 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+05:32:17 source wid 026 done 211s
+05:32:21 source wid 029 done 211s
+05:35:48 source wid 032 done 211s
+05:35:50 source wid 035 done 209s
+05:39:17 source wid 038 done 209s
+05:39:20 source wid 041 done 210s
+05:42:46 source wid 044 done 209s
+05:42:52 source wid 047 done 212s
+05:46:17 source wid 050 done 211s
+05:46:22 source wid 053 done 210s
+05:49:46 source wid 056 done 210s
+05:49:52 source wid 059 done 210s
+05:53:16 source wid 062 done 210s
+05:53:20 source wid 065 done 208s
+05:56:45 source wid 068 done 209s
+05:56:47 source wid 071 done 207s
+06:00:14 source wid 074 done 209s
+06:00:15 source wid 077 done 209s
+06:03:44 source wid 080 done 210s
+06:03:44 source wid 083 done 209s
+06:07:14 source wid 089 done 210s
+06:07:15 source wid 086 done 211s
+06:10:42 source wid 095 done 207s
+06:10:42 source wid 092 done 209s
+06:14:10 source wid 098 done 208s
+06:14:10 source wid 101 done 208s
+06:17:38 source wid 107 done 208s
+06:17:39 source wid 104 done 209s
+06:21:07 source wid 110 done 209s
+06:21:07 source wid 113 done 208s
+06:24:37 source wid 116 done 210s
+06:24:38 source wid 119 done 210s
+06:28:05 source wid 122 done 208s
+06:28:07 source wid 125 done 209s
+06:31:34 source wid 128 done 208s
+06:31:35 source wid 131 done 208s
+06:35:05 source wid 134 done 212s
+06:35:08 source wid 137 done 213s
+06:38:34 source wid 140 done 209s
+06:38:36 source wid 143 done 208s
+06:40:25 source wid 146 done 110s
+06:40:27 source wid 149 done 111s
+06:42:15 source wid 152 done 111s
+06:42:17 source wid 155 done 110s
+06:44:05 source wid 158 done 110s
+06:44:08 source wid 161 done 111s
+06:45:57 source wid 164 done 111s
+06:45:59 source wid 167 done 111s
+06:47:47 source wid 170 done 110s
+06:47:49 source wid 173 done 111s
+06:49:37 source wid 176 done 110s
+06:49:40 source wid 179 done 111s
+06:51:29 source wid 182 done 111s
+06:51:31 source wid 185 done 111s
+06:53:21 source wid 188 done 112s
+06:53:22 source wid 191 done 111s
+06:53:32 E1 part 2 driver exited
+06:53:32 source: 0 of 64 worlds to run
+06:53:32 source: 16 of 16 worlds to run
+06:57:01 source wid 037 done 208s
+06:57:03 source wid 040 done 210s
+07:00:29 source wid 043 done 208s
+07:00:31 source wid 046 done 207s
+07:03:58 source wid 049 done 209s
+07:04:00 source wid 052 done 209s
+07:07:27 source wid 055 done 210s
+07:07:29 source wid 058 done 209s
+07:10:54 source wid 061 done 207s
+07:10:58 source wid 064 done 209s
+07:14:23 source wid 067 done 208s
+07:14:27 source wid 070 done 209s
+07:17:51 source wid 073 done 208s
+07:17:55 source wid 076 done 208s
+07:21:18 source wid 079 done 207s
+07:21:24 source wid 082 done 209s
+07:21:25 E1 part 1 low block finished

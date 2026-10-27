@@ -1,0 +1,82 @@
+{
+ "name": "RIWF E1 v2 confirmatory plan",
+ "frozen": "2026-09-27",
+ "pilots": {
+  "seeds": [2001, 2002, 3010, 3011],
+  "gate": "mean within-world spread of refit target success across candidates at least 0.20",
+  "result": "q_common 0.95 spread 0.27, q_common 0.45 spread 0.13, demand-shift new-test spread 0.25. Passed on the mean. Target delays moved from 12-28 to 40-80 and rare share from 0.10-0.25 to 0.05-0.30 after the first pilot showed source validation at the oracle."
+ },
+ "seed0": 500000,
+ "seed_step": 1009,
+ "cohorts": [
+  {"name": "main95", "kind": "main", "q_common": 0.95, "worlds": 36},
+  {"name": "main75", "kind": "main", "q_common": 0.75, "worlds": 36},
+  {"name": "main60", "kind": "main", "q_common": 0.60, "worlds": 36},
+  {"name": "main45", "kind": "main", "q_common": 0.45, "worlds": 36},
+  {"name": "ds60", "kind": "ds", "q_common": 0.60, "worlds": 48}
+ ],
+ "cfg": {"updates": 150, "episodes": 192, "epochs": 2, "minibatch": 64, "lr": 0.0025, "ent": 0.01, "aux_w": 0.5,
+         "gamma": 0.99, "lam": 0.95, "clip": 0.2, "vf": 0.5, "grad": 1.0},
+ "environment": {
+  "classes": 4, "cues": 3, "distractors": 5, "gates": 3,
+  "q_rare": "uniform 0.96 to 0.995 per world", "q_common_jitter": "uniform -0.02 to 0.02 per world",
+  "rare_share": {"source": 0.05, "target": 0.30},
+  "delays": {"main": {"source": "3-7", "target": [40, 60, 80]}, "ds": {"source": "3-7", "target": "3-7"}},
+  "tests": "three balanced binary tests that separate all four classes, permuted per world",
+  "demand_shift": "candidates train and are scored on test 1 at every gate. Deployment asks tests 1, 2 and 3. Endpoint uses tests 2 and 3."
+ },
+ "pool": {
+  "main": "GRU, LSTM x width 16, 64 x training delays 3-7, 3-14, 3-28 x rare share natural or 0.5, snapshots at updates 75 and 150: 48 encoders",
+  "ds": "GRU, LSTM x width 16, 64 x auxiliary last-cue head off or on x rare share natural or 0.5, training delays 3-7, snapshots at 75 and 150: 32 encoders",
+  "quantisers": "per encoder, five allocations of six states between rare and common regimes (5+1, 4+2, 3+3, 2+4, 1+5), k-means on standardised source memories",
+  "memory": "hidden state one step before the first gate"
+ },
+ "admission": "an encoder is admitted when its native success on held-out source episodes is within 0.10 of the best encoder in its world. Its five quantisations are admitted with it. The rule uses source data only.",
+ "banks": {"fit": 3000, "cal": 3000, "val": 2400, "panel": 1600, "fresh": 2400},
+ "teachers": {
+  "primary": "set pooling network (sum of per-step embeddings plus regime flag), trained on cal source episodes",
+  "second": "GRU sequence network trained on cal source episodes",
+  "reference": "analytic symmetric-noise posterior with cue reliabilities estimated on cal source episodes, plus log-posterior noise 0.5, 1 and 2 for the teacher-error test"
+ },
+ "selectors": {
+  "quantised": {
+   "k_delta_set": "min, freedom deficit of the lookup table with success weights |2p-1| on the known tests",
+   "k_rho_set": "min, freedom deficit with normalised-regret weights",
+   "k_unit_set": "min, unit weights (raw impurity)",
+   "f_ign": "min, ignorance-prior freedom deficit over all seven binary tests with success weights",
+   "f_unw": "min, unweighted freedom deficit over all seven tests",
+   "k_deploy": "min, freedom deficit on the deployment tests (demand-shift reference, uses the test list)",
+   "ll": "min, teacher log loss of the cell-pooled posterior",
+   "val": "max, source validation success of the source-fitted lookup policy",
+   "skd": "min, source freedom deficit with teacher weights on held-out source episodes",
+   "k_delta_seq, k_delta_an, k_delta_n0.5, k_delta_n1.0, k_delta_n2.0": "min, K_delta under the other teachers"
+  },
+  "native": {
+   "lin": "min, cross-fitted freedom deficit of the linear readout language on panel memories",
+   "knn": "min, cross-fitted deficit of a 15-nearest-neighbour readout",
+   "tpe": "min, teacher-based policy evaluation of the native actor on the panel",
+   "mp": "max, mean maximum action probability at the gates",
+   "ent": "min, mean action entropy at the gates",
+   "atc": "max, average thresholded confidence with source threshold",
+   "dev": "min, deep embedded validation risk",
+   "dis": "min, disagreement with the pool majority",
+   "nat_val": "max, native source validation success",
+   "slin": "min, linear-language deficit on source episodes"
+  },
+  "references": "uniform random (pool mean) and target oracle, computed after opening"
+ },
+ "modes": {"asis": "native actor, endpoint n_succ", "refit_lookup": "lookup table refitted on the panel with teacher answers, endpoint q_succ", "refit_linear": "linear readout refitted on the panel, endpoint l_succ"},
+ "hypotheses": {
+  "H1": "ds60: f_ign beats k_delta_set on new-test refit success (q_succ), and k_delta_set wins or ties on the known test (q_succ_known). Paired sign-flip and crossover interaction with bootstrap interval.",
+  "H2": "main: after refitting, k_delta_set (q_succ) and lin (l_succ) beat nat_val or val and each teacher-free selector. Paired sign-flip per rival, Holm within family, one-sided alpha 0.05.",
+  "H3": "main: realised regret after linear refit (bayes - l_succ) tracks lin with slope near 1 within worlds, and lin selection beats knn selection on l_succ.",
+  "H4": "main: tpe wins as-is (n_succ) and lin wins after refitting (l_succ). Selector x mode interaction with bootstrap interval.",
+  "H5": "main: gain of k_delta_set over k_unit_set in q_succ rises as q_common falls. One-sided trend test across strata.",
+  "H6": "main60 and main45: k_rho_set selection wins on normalised regret (q_nreg) and k_delta_set wins on success (q_succ_r vs q_succ). Difference in differences with bootstrap interval.",
+  "H7": "main: panel selection loss under each teacher stays within 2 eps, eps the measured teacher error.",
+  "H8": "main: zero-reward selection matches online validation at some n episodes per candidate.",
+  "H9": "main: states allocated to the rare regime by weighted selection match the oracle, unweighted selection allocates fewer."
+ },
+ "endpoints": "target expected success of the deployed agent per world, reported raw and as gap closure between admitted-pool mean and target oracle",
+ "stats": {"bootstrap": 50000, "signflip": "exact up to 24 worlds, one million draws above", "holm": "H1 and H2 together", "alpha_one_sided": 0.05, "tail": "share of worlds where a selector deploys a candidate from the bottom quartile of target success"}
+}

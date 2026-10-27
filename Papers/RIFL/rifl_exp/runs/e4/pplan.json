@@ -1,0 +1,11 @@
+{
+ "name": "RIWF E4 pilot, Repeat Previous with lags unknown",
+ "written": "2026-09-28",
+ "spec": "e4/plan.md",
+ "seed0": 1097958,
+ "seed_step": 1021,
+ "seeds_note": "pilot seeds 1100000 - 2042 and 1100000 - 1021 (wid 0 and 1)",
+ "cohorts": [{"name": "pilot", "kind": "rprev", "q_common": null, "worlds": 2}],
+ "cfg": {"updates": 300, "episodes": 64, "epochs": 3, "minibatch": 32, "lr": 0.001, "ent": 0.01, "gamma": 0.99,
+         "lam": 0.95, "clip": 0.2, "vf": 0.5, "grad": 0.5, "k_src": 4, "new_lags": [2, 3, 5, 6, 7, 8], "margin": 0.1}
+}

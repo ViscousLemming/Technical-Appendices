@@ -1,0 +1,49 @@
+11:10:54 source: 32 of 32 worlds to run
+11:13:30 source: 32 of 32 worlds to run
+11:15:31 source wid 000 done 121s
+11:15:34 source wid 002 done 124s
+11:15:36 source wid 001 done 126s
+11:15:37 source wid 003 done 127s
+11:15:58 source: 28 of 32 worlds to run
+11:20:19 source: 28 of 32 worlds to run
+11:22:09 source wid 004 done 110s
+11:22:22 source wid 007 done 122s
+11:22:28 source wid 006 done 129s
+11:22:39 source wid 005 done 139s
+11:22:47 source: 24 of 32 worlds to run
+11:25:59 source: 24 of 32 worlds to run
+11:27:55 source wid 008 done 116s
+11:27:56 source wid 009 done 117s
+11:27:59 source wid 010 done 120s
+11:28:12 source wid 011 done 133s
+11:29:39 source: 20 of 32 worlds to run
+11:32:58 source: 20 of 32 worlds to run
+11:34:51 source wid 012 done 112s
+11:34:56 source wid 015 done 117s
+11:35:04 source wid 014 done 125s
+11:35:11 source wid 013 done 132s
+11:36:36 source: 16 of 32 worlds to run
+11:43:04 source: 16 of 32 worlds to run
+11:45:09 source wid 016 done 124s
+11:45:09 source wid 019 done 124s
+11:45:09 source wid 017 done 125s
+11:45:13 source wid 018 done 128s
+11:45:41 source: 12 of 32 worlds to run
+11:48:10 source: 12 of 32 worlds to run
+11:50:17 source wid 023 done 127s
+11:50:21 source wid 021 done 131s
+11:50:21 source wid 022 done 131s
+11:50:38 source: 9 of 32 worlds to run
+11:51:12 source wid 020 done 33s
+11:53:12 source: 8 of 32 worlds to run
+11:55:23 source wid 026 done 131s
+11:55:24 source wid 025 done 132s
+11:55:33 source wid 024 done 141s
+11:55:38 source: 5 of 32 worlds to run
+11:57:37 source wid 027 done 118s
+11:57:43 source: 4 of 32 worlds to run
+11:59:58 source: 4 of 32 worlds to run
+12:00:32 source wid 028 done 34s
+12:00:52 source wid 029 done 54s
+12:01:12 source wid 030 done 74s
+12:02:17 source wid 031 done 139s

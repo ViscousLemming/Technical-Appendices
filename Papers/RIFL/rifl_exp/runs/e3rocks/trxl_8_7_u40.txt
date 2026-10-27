@@ -1,0 +1,1 @@
+trxl8_s7 0.001 0.01 upd 40 train s 13.5 curve [8.9, 10.0] ret/checks/samples/visits {'src': (10.0, 0.0, 0.0, 352), 'tgt': (10.0, 0.0, 0.0, 114)}

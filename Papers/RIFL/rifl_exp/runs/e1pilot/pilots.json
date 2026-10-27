@@ -1,0 +1,119 @@
+{
+ "worlds": {
+  "0": {
+   "pilot": "first",
+   "kind": "main",
+   "q_common": 0.6,
+   "seed": 1001,
+   "frac_source": 0.1,
+   "frac_target": 0.25,
+   "target_delays": [
+    12,
+    20,
+    28
+   ],
+   "pool_delays": [
+    "3-7",
+    "3-28"
+   ],
+   "result": {
+    "candidates": 160,
+    "admitted": 110,
+    "spread_all": 0.26431692009867813,
+    "spread_admitted": 0.21041125378533343,
+    "source_validation_q_succ": 0.750140704148725,
+    "best_q_succ": 0.7542182313130164,
+    "source_validation_l_succ": 0.8626927198114128,
+    "best_l_succ": 0.8626927198114128,
+    "source_validation_n_succ": 0.7650294614381772,
+    "best_n_succ": 0.7650294614381772
+   }
+  },
+  "1": {
+   "pilot": "second",
+   "kind": "ds",
+   "q_common": 0.6,
+   "seed": 2002,
+   "frac_source": 0.05,
+   "frac_target": 0.3,
+   "target_delays": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "pool_delays": [
+    "3-7"
+   ],
+   "result": {
+    "candidates": 160,
+    "admitted": 160,
+    "spread_all": 0.2557932602494569,
+    "spread_admitted": 0.2557932602494569,
+    "source_validation_q_succ": 0.4989734171121164,
+    "best_q_succ": 0.7512444906709255,
+    "source_validation_l_succ": 0.844042019158941,
+    "best_l_succ": 0.8579647908581894
+   }
+  },
+  "10": {
+   "pilot": "second",
+   "kind": "main",
+   "q_common": 0.95,
+   "seed": 3010,
+   "frac_source": 0.05,
+   "frac_target": 0.3,
+   "target_delays": [
+    40,
+    60,
+    80
+   ],
+   "pool_delays": [
+    "3-7",
+    "3-28"
+   ],
+   "result": {
+    "candidates": 160,
+    "admitted": 115,
+    "spread_all": 0.27170041902398945,
+    "spread_admitted": 0.2712867523248814,
+    "source_validation_q_succ": 0.6131465081848467,
+    "best_q_succ": 0.7785107536547119,
+    "source_validation_l_succ": 0.6725617329465728,
+    "best_l_succ": 0.7971401480144832,
+    "source_validation_n_succ": 0.639818790741637,
+    "best_n_succ": 0.828214422391404
+   }
+  },
+  "11": {
+   "pilot": "second",
+   "kind": "main",
+   "q_common": 0.45,
+   "seed": 3011,
+   "frac_source": 0.05,
+   "frac_target": 0.3,
+   "target_delays": [
+    40,
+    60,
+    80
+   ],
+   "pool_delays": [
+    "3-7",
+    "3-28"
+   ],
+   "result": {
+    "candidates": 160,
+    "admitted": 120,
+    "spread_all": 0.1287631687956231,
+    "spread_admitted": 0.12848824369656442,
+    "source_validation_q_succ": 0.5799102919456729,
+    "best_q_succ": 0.6291875945411679,
+    "source_validation_l_succ": 0.6592111375987654,
+    "best_l_succ": 0.7121861072861774,
+    "source_validation_n_succ": 0.5911639762768709,
+    "best_n_succ": 0.6679323661749828
+   }
+  }
+ }
+}

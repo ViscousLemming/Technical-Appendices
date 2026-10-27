@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Normalised regret on the new tasks of the agent that each selector deployed, averaged over replications. The experiments are E1 with new tasks (two new tasks, 48 replications) and Repeat Previous (six new lags, 32 replications in each of E4 and E5). Regret on the trained task means regret on the known task with success weights in E1, and regret on lag 4 in E4 and E5. On Repeat Previous, a perfect agent scores one and a wrong prediction loses what a correct one earns. Normalised regret computed from this return is twice the share of wrong predictions. The last two rows contain the reduction in normalised regret when freedom over all tasks replaces the named selector. Each reduction is a ratio of sums over replications, with a 95\% bootstrap interval over replications.}
+\label{tab:reg}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.3cm}rrr@{}}
+\toprule
+Selector & E1 new tasks & E4 new lags & E5 new lags \\
+\midrule
+Freedom over all tasks & 0.163 & 0.235 & 0.237 \\
+Regret on the trained task & 0.388 & 0.762 & 0.771 \\
+Source validation & 0.375 & 0.269 & 0.247 \\
+Random choice & 0.325 & 0.841 & 0.851 \\
+Best agent in hindsight & 0.143 & 0.220 & 0.223 \\
+\midrule
+Reduction against regret on the trained task & 58\% [56\%, 60\%] & 69\% [68\%, 70\%] & 69\% [68\%, 70\%] \\
+Reduction against random choice & 50\% [47\%, 52\%] & 72\% [71\%, 73\%] & 72\% [71\%, 73\%] \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,50 @@
+\begin{table}[t]
+\centering
+\caption{Paired comparisons within replications. Each row contains the mean difference within replications in the deployed agent's target outcome, its 95\% bootstrap interval, the numbers of replications won, tied and lost, and the one-sided sign-flip $p$ value. An asterisk marks a $p$ value that is Holm-adjusted within the environment's group of confirmatory tests. E1 new is the part of E1 with new tasks, and freedom is the freedom selector of each experiment.}
+\label{tab:paired}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}l>{\raggedright\arraybackslash}p{6.4cm}rlrr@{}}
+\toprule
+Env. & Comparison & Mean & 95\% interval & W/T/L & $p$ \\
+\midrule
+E1 new & Freedom $-$ regret on the known task, new tasks$^*$ & 0.212 & [0.200, 0.223] & 48/0/0 & $1.2\times10^{-5}$ \\
+E1 new & Regret on the known task $-$ freedom, known task & 0.108 & [0.098, 0.118] & 48/0/0 & $1.0\times10^{-6}$ \\
+E1 & Freedom, table $-$ source validation$^*$ & 0.087 & [0.076, 0.097] & 127/7/10 & $1.2\times10^{-5}$ \\
+E1 & Freedom, table $-$ freedom on source histories$^*$ & 0.089 & [0.079, 0.100] & 126/10/8 & $1.2\times10^{-5}$ \\
+E1 & Freedom, table $-$ teacher log loss$^*$ & 0.002 & [$-$0.002, 0.006] & 44/76/24 & 0.325 \\
+E1 & Freedom, table, success $-$ unit weights$^*$ & $-$0.001 & [$-$0.003, 0.002] & 11/120/13 & 0.672 \\
+E1 & Freedom, linear $-$ source validation$^*$ & 0.085 & [0.073, 0.096] & 123/13/8 & $1.2\times10^{-5}$ \\
+E1 & Freedom, linear $-$ maximum action probability$^*$ & 0.077 & [0.065, 0.089] & 120/11/13 & $1.2\times10^{-5}$ \\
+E1 & Freedom, linear $-$ action entropy$^*$ & 0.076 & [0.064, 0.089] & 118/14/12 & $1.2\times10^{-5}$ \\
+E1 & Freedom, linear $-$ thresholded confidence$^*$ & 0.126 & [0.113, 0.139] & 135/5/4 & $1.2\times10^{-5}$ \\
+E1 & Freedom, linear $-$ disagreement$^*$ & 0.081 & [0.071, 0.092] & 115/20/9 & $1.2\times10^{-5}$ \\
+E1 & Freedom, linear $-$ deep embedded validation$^*$ & 0.095 & [0.082, 0.109] & 128/9/7 & $1.2\times10^{-5}$ \\
+E1 & Freedom, linear $-$ freedom on source histories$^*$ & 0.058 & [0.049, 0.068] & 111/21/12 & $1.2\times10^{-5}$ \\
+E1 & Teacher evaluation $-$ freedom, linear, unchanged & 0.009 & [$-$0.003, 0.021] & 60/47/37 & 0.080 \\
+E1 & Freedom, linear $-$ teacher evaluation, refitted & 0.033 & [0.026, 0.042] & 80/47/17 & $1.0\times10^{-6}$ \\
+\midrule
+E2 & Freedom $-$ source validation$^*$ & 0.141 & [0.131, 0.152] & 32/0/0 & $6.0\times10^{-6}$ \\
+E2 & Freedom $-$ maximum action probability$^*$ & 0.233 & [0.157, 0.311] & 20/12/0 & $6.0\times10^{-6}$ \\
+E2 & Freedom $-$ action entropy$^*$ & 0.218 & [0.144, 0.296] & 20/12/0 & $6.0\times10^{-6}$ \\
+E2 & Freedom $-$ thresholded confidence$^*$ & 0.155 & [0.140, 0.172] & 32/0/0 & $6.0\times10^{-6}$ \\
+E2 & Freedom $-$ disagreement$^*$ & 0.053 & [0.038, 0.070] & 29/3/0 & $6.0\times10^{-6}$ \\
+E2 & Freedom $-$ deep embedded validation$^*$ & 0.173 & [0.106, 0.252] & 22/10/0 & $6.0\times10^{-6}$ \\
+E2 & Teacher evaluation $-$ freedom, unchanged & 0.011 & [0.006, 0.016] & 23/9/0 & $1.0\times10^{-6}$ \\
+E2 & Freedom $-$ teacher evaluation, refitted & 0.000 & [0.000, 0.000] & 0/31/1 & 1.000 \\
+\midrule
+E3 & Freedom $-$ memory term only & 1.40 & [1.07, 1.74] & 23/0/1 & $1.2\times10^{-7}$ \\
+E3 & Freedom $-$ never-gained term only & 0.34 & [0.00, 0.75] & 5/18/1 & 0.078 \\
+E3 & Freedom $-$ source validation$^*$ & 0.19 & [$-$0.10, 0.49] & 8/12/4 & 0.123 \\
+E3 & Freedom $-$ maximum action probability$^*$ & 1.65 & [1.20, 2.08] & 22/1/1 & $4.2\times10^{-6}$ \\
+E3 & Freedom $-$ action entropy$^*$ & 1.40 & [0.97, 1.84] & 21/1/2 & $7.2\times10^{-6}$ \\
+E3 & Freedom $-$ thresholded confidence$^*$ & 1.67 & [1.35, 1.99] & 23/1/0 & $7.2\times10^{-7}$ \\
+E3 & Freedom $-$ disagreement$^*$ & 1.12 & [0.82, 1.40] & 22/1/1 & $4.8\times10^{-6}$ \\
+E3 & Freedom $-$ deep embedded validation$^*$ & 0.43 & [0.03, 0.87] & 11/11/2 & 0.054 \\
+E3 & Memory term only, return $-$ success weights & $-$0.04 & [$-$0.14, 0.04] & 3/19/2 & 0.781 \\
+E3 & Memory term only, return $-$ unit weights & $-$0.15 & [$-$0.48, 0.13] & 5/9/10 & 0.813 \\
+E3 & Teacher evaluation $-$ freedom, unchanged & $-$0.06 & [$-$0.16, 0.00] & 0/20/4 & 1.000 \\
+E3 & Freedom $-$ teacher evaluation, refitted & 0.11 & [0.01, 0.24] & 4/20/0 & 0.062 \\
+\bottomrule
+\end{tabular}
+\end{table}

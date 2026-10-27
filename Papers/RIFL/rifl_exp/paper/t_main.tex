@@ -1,0 +1,95 @@
+\begin{table}[t]
+\centering
+\caption{E1 with longer delays, 144 replications. Target success of the deployed agent, and the share of the gap closed by each selector. The gap runs from random choice to the best agent in hindsight. For memories rounded to six states, the predictions come from a table with one entry per state, refitted on the target sample. For the agents' own continuous memories, the predictions come from a refitted linear layer or from the agent's own policy.}
+\label{tab:e1}
+\small
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Six-state memories & \multicolumn{2}{c}{Refitted table} & & & & \\
+\midrule
+Freedom, success weights & 0.692 & 90 & & & & \\
+Freedom, normalised-regret weights & 0.694 & 91 & & & & \\
+Freedom, unit weights & 0.693 & 90 & & & & \\
+Freedom over all tasks & 0.692 & 89 & & & & \\
+Freedom, GRU teacher & 0.665 & 68 & & & & \\
+Freedom, analytic posterior & 0.687 & 85 & & & & \\
+Teacher log loss & 0.690 & 88 & & & & \\
+Freedom on source histories & 0.603 & 17 & & & & \\
+Source validation & 0.606 & 19 & & & & \\
+Random choice & 0.582 & 0 & & & & \\
+Best agent in hindsight & 0.705 & 100 & & & & \\
+\midrule
+Continuous memories & \multicolumn{2}{c}{Refitted linear} & \multicolumn{2}{c}{Unchanged} & & \\
+\midrule
+Freedom, linear decision rule & 0.766 & 94 & 0.727 & 68 & & \\
+Freedom, nearest-neighbour rule & 0.763 & 91 & 0.732 & 72 & & \\
+Teacher evaluation & 0.733 & 61 & 0.736 & 76 & & \\
+Source validation & 0.682 & 10 & 0.635 & $-$9 & & \\
+Freedom on source histories & 0.708 & 36 & 0.646 & 0 & & \\
+Deep embedded validation & 0.671 & $-$1 & 0.647 & 1 & & \\
+Disagreement & 0.685 & 13 & 0.708 & 53 & & \\
+Thresholded confidence & 0.640 & $-$31 & 0.633 & $-$11 & & \\
+Action entropy & 0.690 & 18 & 0.676 & 26 & & \\
+Maximum action probability & 0.689 & 18 & 0.680 & 29 & & \\
+Random choice & 0.671 & 0 & 0.646 & 0 & & \\
+Best agent in hindsight & 0.772 & 100 & 0.765 & 100 & & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{E1 with new tasks, 48 replications. Memories are chosen with one task known. Deployment includes that task and two new tasks, and a table of predictions is refitted once all three are named. The reference row is a selector computed with the deployed tasks.}
+\label{tab:ds}
+\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Selector & \multicolumn{2}{c}{New tasks} & \multicolumn{2}{c}{Known task} \\
+\midrule
+Freedom over all tasks & 0.738 & 91 & 0.769 & $-$7 \\
+Freedom over all tasks, unit weights & 0.737 & 90 & 0.782 & 6 \\
+Regret on the known task, success weights & 0.525 & $-$36 & 0.877 & 100 \\
+Regret on the known task, normalised-regret weights & 0.527 & $-$35 & 0.877 & 100 \\
+Regret on the known task, unit weights & 0.526 & $-$35 & 0.877 & 100 \\
+Teacher log loss & 0.647 & 37 & 0.876 & 99 \\
+Regret on the known task, source histories & 0.521 & $-$39 & 0.877 & 100 \\
+Source validation & 0.539 & $-$28 & 0.877 & 100 \\
+Freedom on the deployed tasks (reference) & 0.742 & 93 & 0.777 & 2 \\
+Random choice & 0.585 & 0 & 0.776 & 0 \\
+Best agent in hindsight & 0.753 & 100 & 0.877 & 100 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{E2 and E3, over 32 T-Maze replications and 24 noisy T-Maze replications. Mean target performance of the deployed agent, and the share of the gap closed by each selector. The gap runs from random choice to the best agent in hindsight. Performance is success in E2 and return in E3. Freedom is the freedom selector of each experiment (\Cref{sec:estimate}).}
+\label{tab:e23}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+ & \multicolumn{4}{c}{E2 T-Maze} & \multicolumn{4}{c}{E3 noisy T-Maze} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+Selector & \multicolumn{2}{c}{Refitted} & \multicolumn{2}{c}{Unchanged} & \multicolumn{2}{c}{Refitted} & \multicolumn{2}{c}{Unchanged} \\
+ & success & \% & success & \% & return & \% & return & \% \\
+\midrule
+Freedom & 1.000 & 100 & 0.989 & 94 & 5.19 & 93 & 5.10 & 87 \\
+Freedom, nearest-neighbour rule & 1.000 & 100 & 0.989 & 93 & 5.19 & 92 & 5.10 & 86 \\
+Memory term only & 0.959 & 72 & 0.948 & 70 & 3.79 & 6 & 3.95 & 9 \\
+Never-gained term only & -- & -- & -- & -- & 4.86 & 72 & 4.81 & 67 \\
+Memory term only, unit weights & -- & -- & -- & -- & 3.94 & 15 & 4.08 & 18 \\
+Teacher evaluation & 1.000 & 100 & 1.000 & 100 & 5.08 & 86 & 5.04 & 82 \\
+Source validation & 0.859 & 2 & 0.831 & 3 & 5.00 & 81 & 5.15 & 90 \\
+Freedom on source histories & 0.857 & 0 & 0.827 & 0 & 3.67 & $-$2 & 3.84 & 2 \\
+Deep embedded validation & 0.827 & $-$21 & 0.801 & $-$15 & 4.76 & 66 & 4.78 & 65 \\
+Disagreement & 0.947 & 63 & 0.946 & 69 & 4.07 & 23 & 4.19 & 25 \\
+Thresholded confidence & 0.845 & $-$8 & 0.840 & 8 & 3.52 & $-$11 & 3.67 & $-$10 \\
+Action entropy & 0.782 & $-$52 & 0.750 & $-$45 & 3.79 & 6 & 3.88 & 5 \\
+Maximum action probability & 0.767 & $-$63 & 0.735 & $-$53 & 3.54 & $-$10 & 3.74 & $-$5 \\
+\midrule
+Random choice & 0.857 & 0 & 0.827 & 0 & 3.70 & 0 & 3.81 & 0 \\
+Best agent in hindsight & 1.000 & 100 & 1.000 & 100 & 5.31 & 100 & 5.30 & 100 \\
+\bottomrule
+\end{tabular}
+\end{table}

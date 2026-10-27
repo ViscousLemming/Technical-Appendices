@@ -1,0 +1,1 @@
+gru128_s3 0.001 0.01 upd 20 train s 5.2 curve [8.0] ret/checks/samples/visits {'src': (10.0, 0.34, 0.12, 353), 'tgt': (9.97, 0.28, 0.1, 133)}

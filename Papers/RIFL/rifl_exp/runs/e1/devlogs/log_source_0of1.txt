@@ -1,0 +1,56 @@
+20:31:30 source: 16 of 16 worlds to run
+20:34:16 source: 16 of 16 worlds to run
+20:34:54 source wid 151 done 37s
+20:34:54 source wid 148 done 37s
+20:34:54 source wid 154 done 37s
+20:34:54 source wid 145 done 37s
+20:36:25 source: 12 of 16 worlds to run
+20:37:59 source wid 157 done 93s
+20:38:00 source wid 166 done 94s
+20:38:01 source wid 160 done 94s
+20:38:02 source wid 163 done 96s
+20:38:58 source: 8 of 16 worlds to run
+20:41:22 source wid 169 done 143s
+20:41:23 source wid 172 done 144s
+20:41:27 source wid 175 done 148s
+20:41:27 source wid 178 done 148s
+20:41:34 source: 4 of 16 worlds to run
+20:44:24 source: 4 of 16 worlds to run
+20:45:03 source wid 181 done 38s
+20:45:17 source wid 187 done 52s
+20:45:17 source wid 190 done 52s
+20:45:17 source wid 184 done 52s
+20:45:43 source: 20 of 20 worlds to run
+20:48:15 source: 20 of 20 worlds to run
+20:50:33 source: 20 of 20 worlds to run
+20:51:51 source wid 094 done 77s
+20:51:52 source wid 091 done 78s
+20:51:52 source wid 085 done 78s
+20:51:52 source wid 088 done 78s
+20:52:40 source: 16 of 20 worlds to run
+20:55:08 source: 16 of 20 worlds to run
+20:57:19 source: 16 of 20 worlds to run
+20:58:36 source wid 097 done 76s
+20:58:36 source wid 100 done 76s
+20:58:36 source wid 103 done 76s
+20:58:37 source wid 106 done 77s
+20:59:36 source: 12 of 20 worlds to run
+21:07:07 source: 12 of 20 worlds to run
+21:09:38 source wid 115 done 150s
+21:09:39 source wid 112 done 152s
+21:09:39 source wid 118 done 152s
+21:09:40 source wid 109 done 153s
+21:09:51 source: 8 of 20 worlds to run
+21:12:02 source: 8 of 20 worlds to run
+21:14:18 source: 8 of 20 worlds to run
+21:15:39 source wid 121 done 80s
+21:15:39 source wid 124 done 80s
+21:15:40 source wid 127 done 82s
+21:15:41 source wid 130 done 82s
+21:16:23 source: 4 of 20 worlds to run
+21:18:45 source: 4 of 20 worlds to run
+21:20:53 source: 4 of 20 worlds to run
+21:22:08 source wid 136 done 75s
+21:22:10 source wid 133 done 76s
+21:22:10 source wid 139 done 76s
+21:22:12 source wid 142 done 78s

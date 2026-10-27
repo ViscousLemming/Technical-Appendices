@@ -1,0 +1,12 @@
+{
+ "written": "2026-09-28 05:30 AEST, before any E1 or E3 target stage ran and before any E1 or E3 target outcome existed",
+ "reason": "The linked machine (4 cores) disconnected twice during the source stages and the cloud container restarted once, killing the E1 part 2 driver. All remaining work moved to the 2-core container.",
+ "E1": "The frozen plan's 192 worlds stay the target. The container runs part 2/3, then E3, then part 1/3. E1 opens when that chain finishes. Twelve part 1/3 worlds locked on the linked machine are used only if that machine reconnects before opening, and are otherwise recomputed here from the same seeds. If the chain cannot finish, E1 opens on every world locked by then, which always includes parts 0/3 and 2/3 (96 main worlds, 24 per stratum, and 32 demand-shift worlds). World inclusion depends only on completion order, never on outcomes.",
+ "E3": "All 24 worlds are recomputed in the container from the frozen seeds. Five worlds locked on the linked machine before it disconnected are never opened and are not used.",
+ "E2": "Unchanged. All 32 worlds ran on the linked machine and were opened after all 32 locks existed.",
+ "outcome": {
+  "written": "2026-09-28 07:23 AEST, after all E1 source stages locked and immediately before E1 opened",
+  "E1": "All 192 worlds of the frozen plan locked. Worlds 0-191 with wid mod 3 = 0 or 2, and wid mod 3 = 1 in 37-82, ran on the 2-core container. Part 1/3 worlds 1-34 and 85-190 ran on the linked machine and their locks and states were copied to the container before opening. No world was dropped.",
+  "E3": "The linked machine reconnected, so E3 ran there in full: 24 of 24 worlds, opened 2026-09-27 20:30 UTC. The container's partial E3 training was stopped before any E3 world locked on the container, and none of it was used."
+ }
+}

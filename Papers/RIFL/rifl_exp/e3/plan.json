@@ -1,0 +1,75 @@
+{
+ "name": "RIWF E3 noisy T-Maze confirmatory plan",
+ "frozen": "2026-09-27",
+ "why_fallback": "The revision plan named RockSample(11,11) with a pre-specified fallback to a T-Maze whose cue reliability and reward scale depend on a visible regime. A RockSample(5,5) pilot on CPU converged to the exit-at-once policy (return 10, no checks, no samples), so no candidate differed in what it sensed. The fallback keeps the property E3 exists to test: agents that differ in how much they sense.",
+ "environment": "POBAX T-Maze dynamics with three changes: a fresh noisy goal reading at every step on the start cell (north and south there do nothing, so staying is the sensing action), a visible regime bit, and a start flag. Regime 0 reads at 0.95 and pays +4 or -0.1. Regime 1 reads at 0.70 and pays +8 or -4. Step limit 4(L+2)+16.",
+ "shift": "source hallways 5-10 with regime 1 in 10 percent of episodes. Target hallways 10-20 with regime 1 in half of the episodes.",
+ "pilots": {
+  "seeds": [
+   1,
+   31
+  ],
+  "gate": "risky-regime readings at the junction differ by at least one reading across candidates, and refit target return spans at least one return unit across candidates",
+  "result": "passed on seed 31: risky-regime readings at the junction ranged from 0 to 11.5 across candidates and refit target return from 1.05 to 5.21. In the pilot world fp4 closed 0.78 of the gap between the admitted mean and the oracle on refit return, aliasing-only selection closed none of it."
+ },
+ "seed0": 900000,
+ "seed_step": 1019,
+ "cohorts": [
+  {
+   "name": "nmaze",
+   "kind": "nmaze",
+   "q_common": null,
+   "worlds": 24
+  }
+ ],
+ "cfg": {
+  "updates": 300,
+  "episodes": 64,
+  "epochs": 3,
+  "minibatch": 32,
+  "lr": 0.001,
+  "ent": 0.01,
+  "gamma": 0.99,
+  "lam": 0.95,
+  "clip": 0.2,
+  "vf": 0.5,
+  "grad": 0.5
+ },
+ "pool": "GRU and LSTM with width 8, 32, 128 and the gated transformer with window 8 or 32, each trained with regime 1 at its natural 10 percent or raised to 50 percent, snapshots at updates 150 and 300: 32 candidates per world",
+ "memory": "the feature the policy head reads at the first step at the junction",
+ "admission": "a candidate is admitted when its native source return is within 1.0 of the best candidate in its world",
+ "teacher": "set network with sum pooling over the observation history, trained on labelled source histories up to the junction",
+ "selectors": {
+  "fp4": "max, predicted return of the refitted readout: informed return on reached episodes minus acquisition (stake x min(p, 1-p)) minus reach x return-weighted linear-language deficit",
+  "fk4": "max, same with the nearest-neighbour readout",
+  "d_ret": "min, return-weighted linear deficit alone (aliasing only)",
+  "d_suc": "min, success-weighted linear deficit alone",
+  "d_one": "min, unweighted linear deficit alone",
+  "acq": "min, acquisition alone",
+  "tpe": "max, teacher-based policy evaluation of the native actor in return units",
+  "mp": "max",
+  "ent": "min",
+  "atc": "max",
+  "dis": "min",
+  "dev": "min",
+  "nat_val": "max, native source return",
+  "slin": "min, source return-weighted linear deficit",
+  "references": "uniform random and target oracle"
+ },
+ "modes": {
+  "asis": "native actor, endpoint n_ret",
+  "refit": "native movement, junction decision by the linear readout refitted on the panel with return weights, endpoint l_ret"
+ },
+ "hypotheses": {
+  "H2": "fp4 beats nat_val and each teacher-free selector on l_ret",
+  "H4": "tpe wins on n_ret and fp4 wins on l_ret",
+  "H10": "P4: fp4 beats d_ret (aliasing only) and acq (acquisition only) on l_ret",
+  "H11": "return weights beat success and unit weights: selecting by d_ret beats d_suc and d_one on l_ret",
+  "H12": "the P4 split: realised refit shortfall from the informed return equals acquisition plus aliasing plus execution, each estimated by the teacher within the measured teacher error"
+ },
+ "stats": {
+  "bootstrap": 50000,
+  "signflip": "exact for 24 worlds",
+  "alpha_one_sided": 0.05
+ }
+}

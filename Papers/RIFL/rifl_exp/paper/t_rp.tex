@@ -1,0 +1,31 @@
+\begin{table}[t]
+\centering
+\caption{Repeat Previous, 32 replications in E4 and 32 in E5. For each selector, the table contains the success after refitting on the six new lags of the agent it deployed. It also contains the share of the gap closed and the mean rank correlation $\tau$ between the selector's score and the candidates' success on the new lags. The gap runs from random choice to the best agent in hindsight. The ranking is exploratory in E4 and confirmatory in E5. Selectors below the first horizontal line are outside the groups of confirmatory tests. Freedom on the deployed lags is a reference that uses the deployed lags.}
+\label{tab:rp}
+\small
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+ & \multicolumn{3}{c}{E4} & \multicolumn{3}{c}{E5} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Selector & success & \% & $\tau$ & success & \% & $\tau$ \\
+\midrule
+Freedom over all tasks & 0.882 & 97 & 0.73 & 0.882 & 98 & 0.71 \\
+Regret on lag 4 & 0.619 & 13 & 0.07 & 0.614 & 13 & 0.09 \\
+Source validation & 0.866 & 92 & 0.27 & 0.876 & 96 & 0.30 \\
+Deep embedded validation & 0.866 & 92 & 0.27 & 0.876 & 96 & 0.30 \\
+Disagreement & 0.776 & 63 & 0.31 & 0.729 & 49 & 0.30 \\
+Thresholded confidence & 0.679 & 32 & 0.25 & 0.599 & 8 & 0.25 \\
+Action entropy & 0.836 & 82 & 0.18 & 0.831 & 82 & 0.22 \\
+Maximum action probability & 0.866 & 92 & 0.17 & 0.848 & 87 & 0.20 \\
+Network size & 0.862 & 91 & 0.33 & 0.864 & 92 & 0.33 \\
+\midrule
+Regret on lag 4, source histories & 0.622 & 14 & 0.07 & 0.614 & 13 & 0.10 \\
+Freedom, lags 1 to 16 & 0.883 & 98 & 0.85 & 0.883 & 98 & 0.82 \\
+Freedom, lags 1 to 8 & 0.890 & 100 & 0.98 & 0.889 & 100 & 0.98 \\
+Freedom on the deployed lags (reference) & 0.890 & 100 & 0.98 & 0.889 & 100 & 0.98 \\
+\midrule
+Random choice & 0.580 & 0 & & 0.574 & 0 & \\
+Best agent in hindsight & 0.890 & 100 & & 0.889 & 100 & \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,6 @@
+{
+ "written": "2026-09-28 19:40 AEST, before any E5 world was locked",
+ "change": "venue only; the frozen plan e5/plan.json is unchanged",
+ "record": "A first launch in the Linux sandbox of the Cowork workspace on the M5 Max (4 processes, 19:30 AEST) stopped after 6 agents of world 0 trained, because the sandbox ends background processes when each command returns. Those agents and the log are kept in runs/e5vm and are not used. E5 restarts from scratch natively on macOS with 16 processes.",
+ "target_data_seen": false
+}

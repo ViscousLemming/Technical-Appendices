@@ -1,0 +1,25 @@
+20:30:29 target: 24 of 24 worlds to run
+20:30:36 target wid 002 done 7s
+20:30:36 target wid 000 done 7s
+20:30:36 target wid 001 done 7s
+20:30:37 target wid 003 done 7s
+20:30:42 target wid 004 done 6s
+20:30:43 target wid 006 done 7s
+20:30:44 target wid 005 done 8s
+20:30:44 target wid 007 done 7s
+20:30:49 target wid 009 done 6s
+20:30:50 target wid 010 done 6s
+20:30:50 target wid 008 done 7s
+20:30:51 target wid 011 done 7s
+20:30:56 target wid 014 done 6s
+20:30:56 target wid 013 done 7s
+20:30:56 target wid 012 done 7s
+20:30:57 target wid 015 done 7s
+20:31:02 target wid 016 done 7s
+20:31:03 target wid 017 done 7s
+20:31:03 target wid 018 done 7s
+20:31:05 target wid 019 done 8s
+20:31:10 target wid 020 done 7s
+20:31:10 target wid 021 done 7s
+20:31:11 target wid 022 done 8s
+20:31:12 target wid 023 done 6s

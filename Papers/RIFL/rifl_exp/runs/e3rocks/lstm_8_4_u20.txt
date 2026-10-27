@@ -1,0 +1,1 @@
+lstm8_s4 0.001 0.01 upd 20 train s 4.1 curve [6.8] ret/checks/samples/visits {'src': (10.07, 2.27, 0.16, 439), 'tgt': (9.97, 1.16, 0.11, 164)}

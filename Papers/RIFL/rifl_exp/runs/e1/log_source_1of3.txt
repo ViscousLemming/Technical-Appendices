@@ -1,0 +1,17 @@
+06:53:32 source: 16 of 16 worlds to run
+06:57:01 source wid 037 done 208s
+06:57:03 source wid 040 done 210s
+07:00:29 source wid 043 done 208s
+07:00:31 source wid 046 done 207s
+07:03:58 source wid 049 done 209s
+07:04:00 source wid 052 done 209s
+07:07:27 source wid 055 done 210s
+07:07:29 source wid 058 done 209s
+07:10:54 source wid 061 done 207s
+07:10:58 source wid 064 done 209s
+07:14:23 source wid 067 done 208s
+07:14:27 source wid 070 done 209s
+07:17:51 source wid 073 done 208s
+07:17:55 source wid 076 done 208s
+07:21:18 source wid 079 done 207s
+07:21:24 source wid 082 done 209s

@@ -1,0 +1,44 @@
+12:03:51 train: 384 agents to train
+12:06:23 train: 15 agents trained in 152s
+12:07:14 train: 366 agents to train
+12:10:17 train: 353 agents to train
+12:13:50 train: 340 agents to train
+12:16:15 train: 13 agents trained in 145s
+12:17:13 train: 326 agents to train
+12:22:04 train: 314 agents to train
+12:24:23 train: 13 agents trained in 140s
+19:31:51 train: 299 agents to train
+19:34:14 train: 16 agents trained in 144s
+19:35:46 train: 281 agents to train
+19:38:07 train: 17 agents trained in 141s
+19:38:44 train: 261 agents to train
+19:40:51 train: 14 agents trained in 126s
+19:41:32 train: 244 agents to train
+19:43:44 train: 12 agents trained in 132s
+19:44:32 train: 229 agents to train
+19:46:46 train: 14 agents trained in 134s
+19:47:49 train: 212 agents to train
+19:51:19 train: 197 agents to train
+19:54:33 train: 182 agents to train
+19:56:48 train: 14 agents trained in 135s
+19:57:27 train: 167 agents to train
+19:59:56 train: 13 agents trained in 149s
+20:00:53 train: 151 agents to train
+20:03:04 train: 12 agents trained in 131s
+20:03:48 train: 136 agents to train
+20:06:14 train: 14 agents trained in 147s
+20:07:13 train: 120 agents to train
+20:09:20 train: 13 agents trained in 127s
+20:10:07 train: 104 agents to train
+20:12:14 train: 13 agents trained in 127s
+20:13:11 train: 88 agents to train
+20:15:34 train: 14 agents trained in 143s
+20:16:13 train: 72 agents to train
+20:18:41 train: 14 agents trained in 148s
+20:19:12 train: 56 agents to train
+20:21:22 train: 13 agents trained in 130s
+20:22:21 train: 40 agents to train
+20:24:34 train: 13 agents trained in 133s
+20:25:17 train: 25 agents to train
+20:28:01 train: 12 agents to train
+20:30:11 train: 12 agents trained in 130s

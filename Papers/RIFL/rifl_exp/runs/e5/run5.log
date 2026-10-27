@@ -1,0 +1,215 @@
+20:50:29 train: 576 agents to train
+21:12:10 train: 576 agents trained in 1301s
+21:12:10 source: 32 of 32 worlds to run
+23:09:34 source wid 008 done 7042s
+23:09:54 source wid 001 done 7062s
+23:10:43 source wid 004 done 7111s
+23:12:53 source wid 009 done 7241s
+23:12:55 source wid 015 done 7243s
+23:13:11 source wid 006 done 7260s
+23:13:20 source wid 011 done 7268s
+23:13:25 source wid 013 done 7273s
+23:13:44 source wid 000 done 7292s
+23:13:46 source wid 007 done 7295s
+23:14:40 source wid 002 done 7349s
+23:15:21 source wid 012 done 7389s
+23:15:24 source wid 005 done 7392s
+23:16:06 source wid 010 done 7434s
+23:16:27 source wid 003 done 7455s
+23:17:48 source wid 014 done 7537s
+01:10:11 source wid 017 done 7217s
+01:10:16 source wid 021 done 7024s
+01:10:17 source wid 025 done 6991s
+01:10:27 source wid 019 done 7054s
+01:10:50 source wid 016 done 7275s
+01:10:54 source wid 026 done 6974s
+01:12:06 source wid 024 done 7102s
+01:12:50 source wid 030 done 6983s
+01:13:24 source wid 022 done 7205s
+01:13:40 source wid 018 done 7377s
+01:13:42 source wid 023 done 7218s
+01:14:06 source wid 027 done 7125s
+01:14:35 source wid 020 done 7300s
+01:14:38 source wid 028 done 7154s
+01:14:42 source wid 029 done 7116s
+01:14:51 source wid 031 done 7022s
+01:14:51 opened 32 worlds
+01:14:51 target: 32 of 32 worlds to run
+01:15:10 target wid 010 done 17s
+01:15:10 target wid 008 done 17s
+01:15:10 target wid 007 done 18s
+01:15:10 target wid 002 done 18s
+01:15:10 target wid 005 done 18s
+01:15:10 target wid 001 done 18s
+01:15:10 target wid 015 done 18s
+01:15:11 target wid 000 done 18s
+01:15:11 target wid 009 done 18s
+01:15:11 target wid 004 done 18s
+01:15:11 target wid 013 done 18s
+01:15:11 target wid 014 done 18s
+01:15:11 target wid 006 done 18s
+01:15:11 target wid 012 done 18s
+01:15:11 target wid 003 done 18s
+01:15:11 target wid 011 done 18s
+01:15:27 target wid 016 done 17s
+01:15:28 target wid 018 done 17s
+01:15:28 target wid 019 done 17s
+01:15:28 target wid 020 done 17s
+01:15:28 target wid 021 done 17s
+01:15:28 target wid 022 done 17s
+01:15:28 target wid 017 done 17s
+01:15:28 target wid 024 done 17s
+01:15:28 target wid 028 done 17s
+01:15:28 target wid 030 done 17s
+01:15:28 target wid 026 done 17s
+01:15:28 target wid 025 done 17s
+01:15:28 target wid 027 done 17s
+01:15:28 target wid 023 done 17s
+01:15:28 target wid 031 done 17s
+01:15:28 target wid 029 done 17s
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+/Users/michaeltimothybennett/weakness_experiments/riwf2/code/e5/anal5.py:95: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  df["l16"] = df[[f"s{k}" for k in L16]].mean(1)
+full admitted pool, worlds 32 admitted mean 18.12
+         sel  l_new  l_new_gc  l_new_tail  l_beyond  l_win  l_known  l_known_gc  n_known
+0    k_known  0.614     0.127       0.376     0.526  0.791    1.000       1.000    0.986
+1      f_ign  0.882     0.977       0.000     0.822  1.000    0.998       0.468    0.973
+2    f_ign16  0.883     0.983       0.000     0.825  1.000    0.998       0.253    0.970
+3     f_ign8  0.889     1.000       0.000     0.833  1.000    0.999       0.722    0.982
+4   k_deploy  0.889     1.000       0.000     0.833  1.000    0.999       0.669    0.979
+5        val  0.876     0.961       0.000     0.815  1.000    1.000       1.000    0.999
+6        skd  0.614     0.125       0.378     0.526  0.790    1.000       1.000    0.986
+7         mp  0.848     0.870       0.000     0.791  0.961    1.000       0.995    0.999
+8        ent  0.831     0.817       0.000     0.776  0.942    1.000       0.993    0.999
+9        atc  0.599     0.078       0.360     0.510  0.777    1.000       1.000    0.994
+10       dis  0.729     0.490       0.143     0.649  0.887    1.000       1.000    0.997
+11       dev  0.876     0.958       0.000     0.813  1.000    1.000       1.000    0.999
+12    params  0.864     0.921       0.000     0.796  1.000    1.000       0.923    0.993
+without window-4 candidates
+         sel  l_new  l_new_gc  l_new_tail  l_beyond  l_win  l_known  l_known_gc  n_known
+0    k_known  0.866     0.910       0.000     0.798  1.000    1.000       0.999    0.998
+1      f_ign  0.882     0.972       0.000     0.822  1.000    0.998       0.584    0.973
+2    f_ign16  0.883     0.979       0.000     0.825  1.000    0.998       0.415    0.970
+3     f_ign8  0.889     1.000       0.000     0.833  1.000    0.999       0.782    0.982
+4   k_deploy  0.889     1.000       0.000     0.833  1.000    0.999       0.741    0.979
+5        val  0.876     0.952       0.000     0.815  1.000    1.000       1.000    0.999
+6        skd  0.866     0.913       0.000     0.799  1.000    1.000       1.000    0.998
+7         mp  0.848     0.840       0.062     0.791  0.961    1.000       0.996    0.999
+8        ent  0.831     0.776       0.094     0.776  0.942    1.000       0.995    0.999
+9        atc  0.873     0.939       0.000     0.809  1.000    1.000       1.000    0.999
+10       dis  0.867     0.917       0.000     0.801  1.000    1.000       1.000    0.999
+11       dev  0.876     0.949       0.000     0.813  1.000    1.000       1.000    0.999
+12    params  0.864     0.903       0.000     0.796  1.000    1.000       0.940    0.993
+H1                 mean +0.2670 ci [+0.2598, +0.2746] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+H2 val             mean +0.0052 ci [+0.0005, +0.0098] p 2.00e-02 holm 6.37e-02 W/T/L 21/3/8
+H2 mp              mean +0.0339 ci [+0.0024, +0.0790] p 1.06e-02 holm 6.37e-02 W/T/L 21/3/8
+H2 ent             mean +0.0503 ci [+0.0064, +0.1045] p 3.00e-03 holm 2.40e-02 W/T/L 21/3/8
+H2 atc             mean +0.2825 ci [+0.2358, +0.3300] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+H2 dis             mean +0.1530 ci [+0.1201, +0.1863] p 1.00e-06 holm 1.60e-05 W/T/L 31/0/1
+H2 dev             mean +0.0060 ci [+0.0010, +0.0109] p 1.27e-02 holm 6.37e-02 W/T/L 21/3/8
+H2 params          mean +0.0178 ci [+0.0139, +0.0216] p 1.00e-06 holm 1.60e-05 W/T/L 29/0/3
+nowin4 H1          mean +0.0160 ci [+0.0101, +0.0221] p 6.00e-06 holm 6.60e-05 W/T/L 26/0/6
+nowin4 H2 val      mean +0.0052 ci [+0.0005, +0.0098] p 2.00e-02 holm 6.37e-02 W/T/L 21/3/8
+nowin4 H2 mp       mean +0.0339 ci [+0.0025, +0.0789] p 1.06e-02 holm 6.37e-02 W/T/L 21/3/8
+nowin4 H2 ent      mean +0.0503 ci [+0.0066, +0.1060] p 3.00e-03 holm 2.40e-02 W/T/L 21/3/8
+nowin4 H2 atc      mean +0.0086 ci [+0.0037, +0.0136] p 9.22e-04 holm 8.30e-03 W/T/L 22/2/8
+nowin4 H2 dis      mean +0.0142 ci [+0.0071, +0.0223] p 9.00e-05 holm 9.00e-04 W/T/L 25/1/6
+nowin4 H2 dev      mean +0.0060 ci [+0.0010, +0.0108] p 1.27e-02 holm 6.37e-02 W/T/L 21/3/8
+nowin4 H2 params   mean +0.0178 ci [+0.0138, +0.0217] p 1.00e-06 holm 1.60e-05 W/T/L 29/0/3
+known lag, k - f_ign: {"mean": 0.0015761460400132155, "ci": [0.0007572268208498569, 0.002619586020171947], "p": 9.99999000001e-07, "wins": 21, "ties": 9, "losses": 2, "n": 32} crossover {'mean': 0.2686187878844325, 'ci': [0.26117458811864763, 0.27642945623219334]}
+nowin4 known lag: {"mean": 0.0015748697916666658, "ci": [0.0007609342447916765, 0.002614558105468746], "p": 9.99999000001e-07, "wins": 21, "ties": 9, "losses": 2, "n": 32} crossover {'mean': 0.017568081695297926, 'ci': [0.011552166943000243, 0.023763478800920976]}
+calib {"slope_mean": 0.9996742004869956, "slope_ci": [0.9989053331704385, 1.0004234182738976], "r2_median": 0.9999666881863372, "mae": 0.0012940786101384065, "worlds": 32}
+H4 {"range_beyond_minus_win": {"mean": 0.07979963808613717, "ci": [0.04413198834622307, 0.10895819729678446], "p": 7.8999921000079e-05, "wins": 29, "ties": 0, "losses": 3, "n": 32}, "gc_beyond": {"k_known": 0.012288266578581416, "f_ign": 0.9659325735461978, "val": 0.9407058291538584, "mp": 0.8640133338488526, "ent": 0.8153107344702482, "atc": -0.039619226797623024, "dis": 0.4078316984180239, "dev": 0.9368527264286926, "params": 0.8795816145212935}, "gc_win": {"k_known": 0.3495504320327977, "f_ign": 0.9993843037193342, "val": 1.0, "mp": 0.8800609042986111, "ent": 0.8207937339083015, "atc": 0.30580999500317757, "dis": 0.6493982168632747, "dev": 0.9999980159949711, "params": 0.999857892333119}, "range_beyond_mean": 0.37312698689768564, "range_win_mean": 0.2933273488115484}
+H5 {"f_ign8_minus_f_ign": {"mean": 0.00701712290547753, "ci": [0.0035872584423603028, 0.010838007591363654], "p": 0.000108999891000109, "wins": 14, "ties": 15, "losses": 3, "n": 32}, "f_ign16_minus_f_ign": {"mean": 0.0017200264699941577, "ci": [-0.00014974281795549632, 0.004443582698434728], "p": 0.18735781264218737, "wins": 3, "ties": 28, "losses": 1, "n": 32}}
+near_tie_share 1.0
+near_tie_share_pool 1.0
+window4_share 0.5081845238095237
+window4_share_f_ign 0.0
+same_deploy_f_ign_k_known 0.046688988095238096
+same_deploy_nowin4 0.09427083333333333
+arch_share {"k_known": {"gru": 0.28031994047619047, "lstm": 0.2114955357142857, "trxl": 0.0, "trxl1": 0.5081845238095237}, "f_ign": {"gru": 0.84375, "lstm": 0.15625, "trxl": 0.0, "trxl1": 0.0}, "val": {"gru": 0.84375, "lstm": 0.15625, "trxl": 0.0, "trxl1": 0.0}, "params": {"gru": 0.0, "lstm": 1.0, "trxl": 0.0, "trxl1": 0.0}}
+gates {"G1_share_val_ge_0.9": 0.5017361111111112, "G1_min_val": -0.2288866639137268, "G2_spread_l_new": 0.536592894236849, "all_above_0.95": false}
+timing {"source_s_mean": 7211.7467345148325, "deficit_s_mean": 6427.56092389673}
+E5, confirmatory | worlds 32 | admitted mean 18.12
+mean tau on l_new, admitted: {'f_ign': 0.712, 'k_known': 0.095, 'val': 0.297, 'mp': 0.205, 'ent': 0.216, 'atc': 0.248, 'dis': 0.298, 'dev': 0.295, 'params': 0.332}
+mean tau on l_new, nowin4: {'f_ign': 0.69, 'k_known': 0.437, 'val': 0.315, 'mp': 0.197, 'ent': 0.189, 'atc': 0.373, 'dis': 0.379, 'dev': 0.317, 'params': 0.21}
+admitted: f_ign - k_known    mean +0.617 ci [+0.567, +0.668] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+admitted: f_ign - val        mean +0.415 ci [+0.364, +0.464] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+admitted: f_ign - mp         mean +0.508 ci [+0.453, +0.559] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+admitted: f_ign - ent        mean +0.496 ci [+0.445, +0.546] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+admitted: f_ign - atc        mean +0.464 ci [+0.414, +0.514] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+admitted: f_ign - dis        mean +0.414 ci [+0.364, +0.462] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+admitted: f_ign - dev        mean +0.417 ci [+0.367, +0.465] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+admitted: f_ign - params     mean +0.381 ci [+0.341, +0.422] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+nowin4: f_ign - k_known      mean +0.254 ci [+0.203, +0.303] p 1.00e-06 holm 1.60e-05 W/T/L 30/0/2
+nowin4: f_ign - val          mean +0.376 ci [+0.324, +0.427] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+nowin4: f_ign - mp           mean +0.493 ci [+0.440, +0.545] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+nowin4: f_ign - ent          mean +0.501 ci [+0.448, +0.551] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+nowin4: f_ign - atc          mean +0.318 ci [+0.270, +0.365] p 1.00e-06 holm 1.60e-05 W/T/L 31/0/1
+nowin4: f_ign - dis          mean +0.311 ci [+0.264, +0.358] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+nowin4: f_ign - dev          mean +0.374 ci [+0.323, +0.424] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+nowin4: f_ign - params       mean +0.481 ci [+0.431, +0.531] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+wrote runs/e5/e5_summary.json
+wrote runs/e5/e5_tau.pdf
+run5 finished Tue 29 Sep 2026 01:15:37 AEST

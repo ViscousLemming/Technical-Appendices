@@ -1,0 +1,1 @@
+lstm32_s5 0.001 0.01 upd 60 train s 8.1 curve [7.0, 9.9, 10.0] ret/checks/samples/visits {'src': (10.0, 0.01, 0.0, 351), 'tgt': (10.0, 0.01, 0.0, 114)}

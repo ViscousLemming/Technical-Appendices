@@ -1,0 +1,7 @@
+# Python 3.10 or later. The comments give the versions used to check this package (Linux, Python 3.11).
+numpy          # 2.4.4
+pandas         # 3.0.2
+scipy          # 1.17.1
+matplotlib     # 3.10.9
+torch          # 2.13.0, CPU is enough
+popgym==1.0.7  # E4 and E5

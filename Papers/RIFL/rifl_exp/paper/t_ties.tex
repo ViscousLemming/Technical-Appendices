@@ -1,0 +1,42 @@
+\begin{table}[t]
+\centering
+\caption{Shares of the gap closed that move by at least two points between the two tie rules. Equal chance is the rule of the text and tables, and under it each tied candidate is deployed with equal probability. Under lowest index, the tied candidate listed first is deployed.}
+\label{tab:ties}
+\footnotesize
+\begin{tabular}{@{}ll>{\raggedright\arraybackslash}p{6.4cm}rr@{}}
+\toprule
+Env. & Deployment & Selector & Equal chance & Lowest index \\
+\midrule
+E1 & refitted linear & Thresholded confidence & $-$31\% & $-$33\% \\
+E1 & unchanged & Freedom on source histories & 0\% & $-$2\% \\
+E1 new & new tasks & Regret on the known task, success weights & $-$36\% & $-$41\% \\
+E1 new & new tasks & Regret on the known task, normalised-regret weights & $-$35\% & $-$40\% \\
+E1 new & new tasks & Regret on the known task, unit weights & $-$35\% & $-$41\% \\
+E1 new & new tasks & Source validation & $-$28\% & $-$32\% \\
+E1 new & new tasks & Regret on the known task, source histories & $-$39\% & $-$46\% \\
+E2 & refitted & Freedom, nearest-neighbour rule & 100\% & 96\% \\
+E2 & refitted & Memory term only & 72\% & 36\% \\
+E2 & refitted & Thresholded confidence & $-$8\% & 11\% \\
+E2 & refitted & Disagreement & 63\% & 14\% \\
+E2 & refitted & Deep embedded validation & $-$21\% & $-$10\% \\
+E2 & refitted & Source validation & 2\% & 36\% \\
+E2 & refitted & Freedom on source histories & 0\% & 10\% \\
+E2 & unchanged & Freedom & 94\% & 75\% \\
+E2 & unchanged & Freedom, nearest-neighbour rule & 93\% & 75\% \\
+E2 & unchanged & Memory term only & 70\% & 16\% \\
+E2 & unchanged & Thresholded confidence & 8\% & 12\% \\
+E2 & unchanged & Disagreement & 69\% & 15\% \\
+E2 & unchanged & Deep embedded validation & $-$15\% & $-$4\% \\
+E2 & unchanged & Source validation & 3\% & 26\% \\
+E2 & unchanged & Freedom on source histories & 0\% & $-$7\% \\
+E3 & refitted & Memory term only, unit weights & 15\% & 17\% \\
+E3 & refitted & Thresholded confidence & $-$11\% & 7\% \\
+E3 & refitted & Disagreement & 23\% & 26\% \\
+E3 & refitted & Freedom on source histories & $-$2\% & 15\% \\
+E3 & unchanged & Memory term only & 9\% & 13\% \\
+E3 & unchanged & Memory term only, unit weights & 18\% & 21\% \\
+E3 & unchanged & Thresholded confidence & $-$10\% & 14\% \\
+E3 & unchanged & Freedom on source histories & 2\% & 21\% \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,111 @@
+{
+ "name": "RIWF E5 Repeat Previous, selectors scored by their rankings, confirmatory plan",
+ "frozen": "2026-09-28",
+ "spec": "e5/plan.md (written 2026-09-28). Everything in e4/plan.json stays fixed except the seeds, the hypotheses and the statistics.",
+ "environment": "POPGym RepeatPrevious(num_decks=1, k) from popgym==1.0.7. Correct action at step t under lag k is o_{t-k+1} for t >= k; reward +-1/(52-k) there, 0 before. 51 steps. Inputs: one-hot suit only.",
+ "port": "e4/rprev.py. Checked in every world against RepeatPrevious(1,4) on 200 seeded episodes (observations, rewards under a fixed random action sequence) and against RepeatPrevious(1,k) for k = 1..16 (the port's label earns the official +1/(52-k) at every posed step). Training batches come from the port. Held-out source episodes and the panel are dealt by official-environment resets; fresh target episodes are dealt and stepped by the official environment, and the port only computes labels.",
+ "shift": "training and the known question pose lag 4; deployment poses the new lags 2, 3, 5, 6, 7, 8, with lag 4 reported beside them",
+ "seed0": 1300000,
+ "seed_step": 1021,
+ "cohorts": [
+  {
+   "name": "rprev",
+   "kind": "rprev",
+   "q_common": null,
+   "worlds": 32
+  }
+ ],
+ "cfg": {
+  "updates": 300,
+  "episodes": 64,
+  "epochs": 3,
+  "minibatch": 32,
+  "lr": 0.001,
+  "ent": 0.01,
+  "gamma": 0.99,
+  "lam": 0.95,
+  "clip": 0.2,
+  "vf": 0.5,
+  "grad": 0.5,
+  "k_src": 4,
+  "new_lags": [
+   2,
+   3,
+   5,
+   6,
+   7,
+   8
+  ],
+  "margin": 0.1
+ },
+ "pool": "GRU and LSTM of width 8, 32, 128; gated transformer (32-dim, 2 heads) with 2 blocks and window 8 or 32; gated transformer with 1 block and window 4 (tagged win4). Two training seeds each (seed + 7919 i + 13), snapshots at updates 150 and 300: 36 candidates. Candidate index follows architecture and size in that order.",
+ "memory": "the policy head's input at every step, computed by one causal pass over the fixed observations (identical to stepping; checked)",
+ "admission": "native source return (expected return of the stochastic policy at lag 4 on 512 held-out source episodes) within 0.10 of the best candidate in the world. The window-4-excluded pool is the admitted pool minus its win4 candidates, admission unchanged.",
+ "deficits": "d_k for k = 1..51: cross-fitted 0-1 error of a multinomial logistic readout from the memory at step t to o_{t-k+1} over steps t >= k on the 512-episode panel, unit weights, five folds grouped by episode (the same folds for every candidate and lag in a world), L2 1e-3 (mean cross-entropy + 1e-3/2 |W|^2, bias unpenalised) on memories standardised on the training folds, L-BFGS (gtol 1e-6, ftol 1e-10, at most 500 iterations). common/fsel.deficit_multi_cv.",
+ "selectors": {
+  "k_known": "min d_4",
+  "f_ign": "min sum_k (52-k) d_k / sum_k (52-k) over k = 1..51 (proposed)",
+  "f_ign16": "min mean d_1..d_16 (exploratory)",
+  "f_ign8": "min mean d_1..d_8 (exploratory)",
+  "k_deploy": "min mean of d_k over the deployed new lags (reference, flagged; never used by another selector)",
+  "val": "max native source return",
+  "skd": "min d_4 cross-fitted on the held-out source episodes",
+  "mp": "max mean max action probability at panel steps t >= 4",
+  "ent": "min mean action entropy there",
+  "atc": "max share of panel steps t >= 4 whose confidence exceeds the ATC threshold fitted on source steps t >= 4 (correct = argmax equals the lag-4 answer)",
+  "dis": "min share of panel steps t >= 4 where the argmax action differs from the majority action of all 36 candidates",
+  "dev": "min deep embedded validation risk, source memories and 1 - p(correct) at steps t >= 4 against panel memories at steps t >= 4",
+  "params": "max parameter count of the whole network"
+ },
+ "ties": "a selector's candidates within 1e-9 of its best score deploy with equal probability; endpoints are the mean over the tied set (common/anal tol=1e-9)",
+ "near_tie": "per world, whether the two best candidates under k_known lie within 0.005 (lock: all candidates; analysis: admitted)",
+ "refit": "multinomial logistic readout for every lag 1..16 fitted on the full panel, stored in the lock as float32; deployment uses the stored weights",
+ "target": "1000 fresh official episodes per world. s_k = share of steps t >= k where the stored readout answers o_{t-k+1}. n_known = expected native return at lag 4.",
+ "endpoints": {
+  "primary": "l_new = mean s_k over the six new lags",
+  "secondary": [
+   "l_beyond (5-8)",
+   "l_win (2, 3)",
+   "l_known = s_4",
+   "n_known"
+  ],
+  "gap_closure": "sum over worlds of (selector - admitted mean) / (oracle - admitted mean), 50,000 bootstrap resamples",
+  "tail": "share of worlds deploying a bottom-quartile l_new candidate"
+ },
+ "hypotheses": {
+  "statistic": "tau(s) = Kendall tau_b between the oriented score (the score if higher is better, else minus the score) and the endpoint over the candidates in a pool, per world. Score ties within 1e-9, endpoint ties within 1e-12. A constant score gives 0.",
+  "endpoint": "l_new, the mean refit success over lags 2, 3, 5, 6, 7 and 8",
+  "pools": [
+   "the admitted pool (E4 rule)",
+   "the admitted pool without the window-4 candidates"
+  ],
+  "family": "Holm over sixteen one-sided sign-flip tests (one million random flips) on the per-world differences tau(f_ign) - tau(r): H1r and H2r on both pools",
+  "H1r": "f_ign ranks better than k_known",
+  "H2r": "f_ign ranks better than val, mp, ent, atc, dis, dev and params, one test per rival",
+  "secondary": "uncorrected. The E4 pick-based H1 and H2 on the E5 worlds (e4/anal4.py). tau on l16 (lags 2, 3 and 5 to 16). Spearman rho in place of tau_b. Regret@3, the target oracle l_new minus the best l_new among the selector top three, each ordering of ties at the cut equally likely.",
+  "exploratory": "tau for skd, f_ign8, f_ign16 and the reference k_deploy. Calibration as E4 H3.",
+  "interpretation": "if H2r fails against a rival, that rival ranks the pool by target success on the new lags as well as freedom does, and the paper reports it"
+ },
+ "stats": {
+  "bootstrap": 50000,
+  "signflip": "one million random flips for 32 worlds",
+  "alpha_one_sided": 0.05,
+  "holm": "the sixteen tests of the family"
+ },
+ "pilot": "none. The pool, training and admission are the ones the E4 pilot fixed (e4/pilot.json).",
+ "code": "E4 world code unchanged. e5/anal5.py, e5/fig5.py and e5/run5.sh added. The analysis ran on E4 before the freeze.",
+ "commands": "e5/run5.sh e5/plan.json runs/e5 <procs>",
+ "base_plan": {
+  "file": "e4/plan.json"
+ },
+ "seed_check": {
+  "rule": "no E5 world or training seed repeats a world or training seed of E1 (e1/plan2.json), E2, E3, E4 or the E4 pilot",
+  "e5_range": [
+   1300000,
+   1466287
+  ],
+  "prior_max": 1266287,
+  "clashes": 0
+ },
+ "exploratory_basis": "E4 ranking analysis with this code (runs/e4/e4_rank.json), chosen after E4 results: mean tau on l_new 0.73 for f_ign, 0.07 for k_known, 0.17 to 0.33 for the seven rivals."
+}

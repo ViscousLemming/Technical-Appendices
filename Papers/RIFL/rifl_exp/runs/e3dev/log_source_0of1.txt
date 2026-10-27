@@ -1,0 +1,43 @@
+12:06:23 source: 24 of 24 worlds to run
+12:16:16 source: 24 of 24 worlds to run
+12:16:32 source wid 000 done 15s
+12:16:32 source wid 001 done 16s
+12:16:32 source wid 002 done 16s
+12:24:23 source: 21 of 24 worlds to run
+12:24:37 source wid 004 done 13s
+12:24:38 source wid 003 done 14s
+19:34:15 source: 19 of 24 worlds to run
+19:34:26 source wid 005 done 11s
+19:38:07 source: 18 of 24 worlds to run
+19:38:19 source wid 006 done 12s
+19:40:51 source: 17 of 24 worlds to run
+19:41:03 source wid 007 done 12s
+19:43:44 source: 16 of 24 worlds to run
+19:43:59 source wid 008 done 14s
+19:46:46 source: 15 of 24 worlds to run
+19:46:59 source wid 009 done 12s
+19:56:48 source: 14 of 24 worlds to run
+19:57:01 source wid 010 done 12s
+19:57:02 source wid 011 done 13s
+19:57:02 source wid 012 done 14s
+19:59:57 source: 11 of 24 worlds to run
+20:00:11 source wid 013 done 14s
+20:03:04 source: 10 of 24 worlds to run
+20:03:18 source wid 014 done 13s
+20:06:15 source: 9 of 24 worlds to run
+20:06:29 source wid 015 done 14s
+20:09:20 source: 8 of 24 worlds to run
+20:09:34 source wid 016 done 14s
+20:12:14 source: 7 of 24 worlds to run
+20:12:29 source wid 017 done 14s
+20:15:34 source: 6 of 24 worlds to run
+20:15:49 source wid 018 done 14s
+20:18:41 source: 5 of 24 worlds to run
+20:18:57 source wid 019 done 16s
+20:21:22 source: 4 of 24 worlds to run
+20:21:37 source wid 020 done 15s
+20:24:34 source: 3 of 24 worlds to run
+20:24:47 source wid 021 done 12s
+20:30:11 source: 2 of 24 worlds to run
+20:30:22 source wid 023 done 10s
+20:30:23 source wid 022 done 11s

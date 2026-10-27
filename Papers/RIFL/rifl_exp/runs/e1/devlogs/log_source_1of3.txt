@@ -1,0 +1,19 @@
+10:43:25 source: 64 of 64 worlds to run
+10:46:42 source: 64 of 64 worlds to run
+10:48:58 source wid 004 done 134s
+10:48:58 source wid 001 done 135s
+10:48:58 source wid 007 done 135s
+10:48:59 source wid 010 done 136s
+10:49:47 source: 60 of 64 worlds to run
+10:51:54 source: 60 of 64 worlds to run
+10:54:18 source wid 019 done 143s
+10:54:18 source wid 016 done 143s
+10:54:18 source wid 013 done 144s
+10:54:20 source wid 022 done 145s
+11:01:25 source: 56 of 64 worlds to run
+11:03:14 source: 56 of 64 worlds to run
+11:05:37 source wid 031 done 142s
+11:05:37 source wid 028 done 142s
+11:05:37 source wid 025 done 143s
+11:05:39 source wid 034 done 144s
+11:06:05 source: 52 of 64 worlds to run

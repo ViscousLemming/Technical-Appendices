@@ -1,0 +1,130 @@
+12:48:26 train: 576 agents to train
+13:12:02 train: 576 agents trained in 1417s
+13:12:03 source: 32 of 32 worlds to run
+15:18:47 source wid 004 done 7602s
+15:20:59 source wid 011 done 7734s
+15:22:04 source wid 009 done 7800s
+15:22:27 source wid 014 done 7823s
+15:23:04 source wid 000 done 7860s
+15:23:16 source wid 005 done 7872s
+15:23:43 source wid 008 done 7899s
+15:23:57 source wid 003 done 7913s
+15:24:42 source wid 012 done 7957s
+15:25:07 source wid 015 done 7983s
+15:25:16 source wid 013 done 7992s
+15:25:31 source wid 007 done 8007s
+15:25:52 source wid 001 done 8028s
+15:27:20 source wid 002 done 8116s
+15:27:29 source wid 010 done 8125s
+15:28:46 source wid 006 done 8202s
+17:17:10 source wid 016 done 7103s
+17:19:11 source wid 024 done 6870s
+17:19:20 source wid 021 done 6964s
+17:21:11 source wid 019 done 7124s
+17:21:14 source wid 020 done 7090s
+17:21:21 source wid 018 done 7157s
+17:21:24 source wid 017 done 7226s
+17:21:26 source wid 026 done 6969s
+17:22:29 source wid 027 done 7018s
+17:22:41 source wid 023 done 7124s
+17:22:59 source wid 022 done 7156s
+17:23:23 source wid 028 done 7051s
+17:23:49 source wid 029 done 6989s
+17:23:59 source wid 031 done 6912s
+17:24:44 source wid 025 done 7177s
+17:25:24 source wid 030 done 7075s
+17:25:25 opened 32 worlds
+17:25:25 target: 32 of 32 worlds to run
+17:25:48 target wid 014 done 20s
+17:25:49 target wid 002 done 21s
+17:25:49 target wid 005 done 21s
+17:25:49 target wid 011 done 21s
+17:25:49 target wid 004 done 22s
+17:25:49 target wid 001 done 22s
+17:25:49 target wid 010 done 22s
+17:25:49 target wid 007 done 22s
+17:25:49 target wid 008 done 22s
+17:25:49 target wid 006 done 22s
+17:25:49 target wid 000 done 22s
+17:25:50 target wid 009 done 22s
+17:25:50 target wid 013 done 22s
+17:25:50 target wid 015 done 22s
+17:25:50 target wid 012 done 22s
+17:25:50 target wid 003 done 22s
+17:26:10 target wid 016 done 22s
+17:26:10 target wid 018 done 22s
+17:26:11 target wid 017 done 22s
+17:26:11 target wid 019 done 22s
+17:26:11 target wid 021 done 22s
+17:26:11 target wid 023 done 22s
+17:26:11 target wid 022 done 22s
+17:26:11 target wid 020 done 22s
+17:26:11 target wid 025 done 22s
+17:26:11 target wid 026 done 22s
+17:26:11 target wid 024 done 22s
+17:26:11 target wid 030 done 22s
+17:26:11 target wid 027 done 22s
+17:26:11 target wid 029 done 22s
+17:26:11 target wid 031 done 22s
+17:26:12 target wid 028 done 22s
+full admitted pool, worlds 32 admitted mean 18.38
+         sel  l_new  l_new_gc  l_new_tail  l_beyond  l_win  l_known  l_known_gc  n_known
+0    k_known  0.619     0.126       0.389     0.532  0.793    1.000       1.000    0.984
+1      f_ign  0.882     0.975       0.000     0.824  1.000    0.997      -0.001    0.962
+2    f_ign16  0.883     0.976       0.000     0.824  1.000    0.997       0.064    0.960
+3     f_ign8  0.890     1.000       0.000     0.835  1.000    0.998       0.321    0.969
+4   k_deploy  0.890     1.000       0.000     0.835  1.000    0.998       0.288    0.968
+5        val  0.866     0.921       0.000     0.808  0.981    1.000       0.999    0.999
+6        skd  0.622     0.136       0.384     0.535  0.795    1.000       1.000    0.985
+7         mp  0.866     0.921       0.000     0.808  0.981    1.000       0.999    0.999
+8        ent  0.836     0.824       0.000     0.783  0.941    1.000       0.992    0.999
+9        atc  0.679     0.322       0.234     0.597  0.845    1.000       0.999    0.995
+10       dis  0.776     0.633       0.097     0.701  0.926    1.000       0.999    0.998
+11       dev  0.866     0.921       0.000     0.808  0.981    1.000       0.999    0.999
+12    params  0.862     0.908       0.000     0.793  1.000    1.000       0.954    0.994
+without window-4 candidates
+         sel  l_new  l_new_gc  l_new_tail  l_beyond  l_win  l_known  l_known_gc  n_known
+0    k_known  0.866     0.905       0.000     0.799  1.000    1.000       0.999    0.998
+1      f_ign  0.882     0.969       0.000     0.824  1.000    0.997       0.212    0.962
+2    f_ign16  0.883     0.971       0.000     0.824  1.000    0.997       0.263    0.960
+3     f_ign8  0.890     1.000       0.000     0.835  1.000    0.998       0.465    0.969
+4   k_deploy  0.890     1.000       0.000     0.835  1.000    0.998       0.440    0.968
+5        val  0.866     0.903       0.031     0.808  0.981    1.000       0.999    0.999
+6        skd  0.867     0.907       0.000     0.800  1.000    1.000       1.000    0.998
+7         mp  0.866     0.903       0.031     0.808  0.981    1.000       0.999    0.999
+8        ent  0.836     0.784       0.094     0.783  0.941    1.000       0.994    0.999
+9        atc  0.864     0.896       0.000     0.796  1.000    1.000       0.999    0.999
+10       dis  0.865     0.902       0.000     0.798  1.000    1.000       0.999    0.999
+11       dev  0.866     0.903       0.031     0.808  0.981    1.000       0.999    0.999
+12    params  0.862     0.888       0.000     0.793  1.000    1.000       0.963    0.994
+H1                 mean +0.2635 ci [+0.2571, +0.2698] p 1.00e-06 holm 1.60e-05 W/T/L 32/0/0
+H2 val             mean +0.0167 ci [-0.0013, +0.0486] p 1.02e-01 holm 6.10e-01 W/T/L 16/5/11
+H2 mp              mean +0.0167 ci [-0.0014, +0.0485] p 1.02e-01 holm 6.10e-01 W/T/L 16/5/11
+H2 ent             mean +0.0467 ci [+0.0015, +0.1050] p 4.12e-02 holm 3.30e-01 W/T/L 15/6/11
+H2 atc             mean +0.2028 ci [+0.1505, +0.2576] p 1.00e-06 holm 1.60e-05 W/T/L 29/0/3
+H2 dis             mean +0.1061 ci [+0.0704, +0.1435] p 1.00e-06 holm 1.60e-05 W/T/L 28/1/3
+H2 dev             mean +0.0167 ci [-0.0013, +0.0487] p 1.02e-01 holm 6.10e-01 W/T/L 16/5/11
+H2 params          mean +0.0205 ci [+0.0159, +0.0250] p 1.00e-06 holm 1.60e-05 W/T/L 29/0/3
+nowin4 H1          mean +0.0161 ci [+0.0105, +0.0219] p 5.00e-06 holm 5.50e-05 W/T/L 28/0/4
+nowin4 H2 val      mean +0.0167 ci [-0.0013, +0.0484] p 1.02e-01 holm 6.10e-01 W/T/L 16/5/11
+nowin4 H2 mp       mean +0.0167 ci [-0.0014, +0.0484] p 1.02e-01 holm 6.10e-01 W/T/L 16/5/11
+nowin4 H2 ent      mean +0.0467 ci [+0.0016, +0.1039] p 4.12e-02 holm 3.30e-01 W/T/L 15/6/11
+nowin4 H2 atc      mean +0.0184 ci [+0.0077, +0.0315] p 4.44e-04 holm 4.00e-03 W/T/L 18/5/9
+nowin4 H2 dis      mean +0.0170 ci [+0.0079, +0.0282] p 1.32e-04 holm 1.32e-03 W/T/L 23/2/7
+nowin4 H2 dev      mean +0.0167 ci [-0.0014, +0.0488] p 1.02e-01 holm 6.10e-01 W/T/L 16/5/11
+nowin4 H2 params   mean +0.0205 ci [+0.0158, +0.0250] p 1.00e-06 holm 1.60e-05 W/T/L 29/0/3
+known lag, k - f_ign: {"mean": 0.0028593750000000043, "ci": [0.0017372904459635487, 0.00408106079101562], "p": 9.99999000001e-07, "wins": 19, "ties": 12, "losses": 1, "n": 32} crossover {'mean': 0.2663438081746907, 'ci': [0.2596406018797528, 0.272968043345921]}
+nowin4 known lag: {"mean": 0.0028580729166666693, "ci": [0.001720703124999997, 0.00408577880859376], "p": 9.99999000001e-07, "wins": 19, "ties": 12, "losses": 1, "n": 32} crossover {'mean': 0.018959074741073667, 'ci': [0.013023156800669879, 0.02519703934722347]}
+calib {"slope_mean": 0.999541771225886, "slope_ci": [0.9988371637918823, 1.0002218383914727], "r2_median": 0.9999752035438049, "mae": 0.0011968717224743932, "worlds": 32}
+H4 {"range_beyond_minus_win": {"mean": 0.07671698071183322, "ci": [0.04527621151090004, 0.10157710627465688], "p": 2.6999973000027e-05, "wins": 29, "ties": 0, "losses": 3, "n": 32}, "gc_beyond": {"k_known": 0.017294766354158168, "f_ign": 0.9618194827909969, "val": 0.9109758410072111, "mp": 0.9109758410072111, "ent": 0.8292294528416095, "atc": 0.22691006391390325, "dis": 0.5654629088926917, "dev": 0.9109758410072111, "params": 0.8616820825789835}, "gc_win": {"k_known": 0.3407565383059636, "f_ign": 0.9988301031310303, "val": 0.9397187738391887, "mp": 0.9397187738391887, "ent": 0.8133036925613474, "atc": 0.5074906949291635, "dis": 0.7657092755292223, "dev": 0.9397187738391887, "params": 0.9999009007848905}, "range_beyond_mean": 0.34594846878176355, "range_win_mean": 0.26923148806993036}
+H5 {"f_ign8_minus_f_ign": {"mean": 0.007921507704761827, "ci": [0.004905981667224695, 0.011298697382599903], "p": 1.999998000002e-06, "wins": 19, "ties": 13, "losses": 0, "n": 32}, "f_ign16_minus_f_ign": {"mean": 0.0005096312296737314, "ci": [-0.0013913048211112895, 0.002750087061694908], "p": 0.3433866566133434, "wins": 3, "ties": 26, "losses": 3, "n": 32}}
+near_tie_share 1.0
+near_tie_share_pool 1.0
+window4_share 0.49931795634920634
+window4_share_f_ign 0.0
+same_deploy_f_ign_k_known 0.050905257936507936
+same_deploy_nowin4 0.10104166666666667
+arch_share {"k_known": {"gru": 0.28069196428571425, "lstm": 0.21999007936507936, "trxl": 0.0, "trxl1": 0.49931795634920634}, "f_ign": {"gru": 0.96875, "lstm": 0.03125, "trxl": 0.0, "trxl1": 0.0}, "val": {"gru": 0.84375, "lstm": 0.125, "trxl": 0.03125, "trxl1": 0.0}, "params": {"gru": 0.0, "lstm": 1.0, "trxl": 0.0, "trxl1": 0.0}}
+gates {"G1_share_val_ge_0.9": 0.5104166666666666, "G1_min_val": -0.22689345479011536, "G2_spread_l_new": 0.5379100172965126, "all_above_0.95": false}
+timing {"source_s_mean": 7497.2886004298925, "deficit_s_mean": 6672.344829186797}
+run4 finished Mon 28 Sep 2026 17:26:17 AEST

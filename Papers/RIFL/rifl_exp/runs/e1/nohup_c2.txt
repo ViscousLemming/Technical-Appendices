@@ -1,0 +1,7 @@
+22:16:47 source: 64 of 64 worlds to run
+22:20:34 source wid 005 done 226s
+22:20:35 source wid 002 done 226s
+22:24:33 source wid 011 done 238s
+22:24:36 source wid 008 done 241s
+22:27:58 source wid 014 done 205s
+22:28:03 source wid 017 done 207s

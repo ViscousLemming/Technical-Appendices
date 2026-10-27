@@ -1,0 +1,2 @@
+12:48:26 train: 576 agents to train
+13:12:02 train: 576 agents trained in 1417s
